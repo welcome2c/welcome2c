@@ -6,12 +6,7 @@
 
 ## 📬 Contact Me
 
-| Channel | Link |
-|:---:|:---|
-| **Email** | [welcome2c@naver.com](mailto:welcome2c@naver.com) |
-| **Github** | [https://github.com/welcome2c](https://github.com/welcome2c) |
-| **Blog** | [https://hoonywoony.tistory.com/](https://hoonywoony.tistory.com/) |
-| **Phone** | 010-9988-0504 |
+* **Email**: [welcome2c@naver.com](mailto:welcome2c@naver.com)
 
 <br>
 
@@ -19,11 +14,6 @@
 
 ### Languages & Frameworks
 <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"> <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
-
-### Libraries & Architecture
-<img src="https://img.shields.io/badge/MVVM-black?style=for-the-badge&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Clean_Architecture-black?style=for-the-badge&logo=google&logoColor=white">
-<img src="https://img.shields.io/badge/Hilt-black?style=for-the-badge&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Koin-F67026?style=for-the-badge&logo=kotlin&logoColor=white">
-<img src="https://img.shields.io/badge/Coroutines-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/RxJava-B7178C?style=for-the-badge&logo=reactivex&logoColor=white">
 
 <br>
 
@@ -104,27 +94,26 @@
 
 ---
 
-## 🗂 Personal & Toy Projects
+## 🗂 Personal Projects
 
-### 🛠 딱따구리 (통합 수리/수선 플랫폼)
-*1인 개발 프로젝트 (설계 ~ 배포)*
-* **주요 기능:**
-    * Naver Map API 기반 위치 기반 업체 탐색
-    * 커뮤니티(CRUD), 예약 시스템, 1:1 문의, Push 알림(FCM)
-    * 마스터(업체) 모드: 통계 대시보드 및 업체 관리 기능
-* **Architecture:** MVVM, Clean Architecture 적용
+### 📱 Pick It
+<a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit&hl=ko">
+  <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-green?style=for-the-badge&logo=googleplay&logoColor=white" />
+</a>
 
-### 🛠 라이브러리 배포 : Lottie Progress Dialog
-*오픈소스 기여*
-* Deprecated된 ProgressDialog를 대체하기 위한 커스텀 라이브러리
-* Lottie 애니메이션을 지원하며 크기 및 텍스트 커스터마이징 가능
-* [GitHub Repository Link](https://github.com/welcome2c/LottieProgressDialog)
+<br>
 
-### 🛠 기타 앱 개발
-* **프린팅 박스:** 웹앱 브릿지, 위치 기반(Geo), 결제 스킴 연동
-* **대한민국 국회:** 웹앱 브릿지, Google In-App Update 구현
-* **건축 현장 체크리스트:** PDF 뷰어, 체크리스트, 현장 동영상 재생 기능
-* **Boim 타로:** 타로 카드 셔플/플립 애니메이션, AdMob 적용
+### 📱 Meow Bow
+<a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow&hl=ko">
+  <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-green?style=for-the-badge&logo=googleplay&logoColor=white" />
+</a>
+
+<br>
+
+### 📱 Weather Cast
+<a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast&hl=ko">
+  <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-green?style=for-the-badge&logo=googleplay&logoColor=white" />
+</a>
 
 <br>
 
