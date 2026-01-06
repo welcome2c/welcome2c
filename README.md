@@ -124,7 +124,7 @@
     </td>
     <td width="80%">
       <h3>🐈 Meow Bow</h3>
-      <p>반려동물과의 소통을 위한 번역 및 놀이 앱</p>
+      <p>귀여운 강아지 고양이 사진 구경하기 앱</p>
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow&hl=ko">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
@@ -137,7 +137,7 @@
     </td>
     <td width="80%">
       <h3>🌦 Weather Cast</h3>
-      <p>직관적인 날씨 정보 제공 앱</p>
+      <p>날씨 기반 옷차림 추천 앱</p>
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast&hl=ko">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
