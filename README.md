@@ -21,11 +21,6 @@
 ### Languages & Frameworks
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white">
 
-### Libraries & Architecture
-<img src="https://img.shields.io/badge/MVVM-FF6F00?style=flat-square&logo=android&logoColor=white"> <img src="https://img.shields.io/badge/Clean_Architecture-009688?style=flat-square&logo=android&logoColor=white">
-<img src="https://img.shields.io/badge/Hilt-673AB7?style=flat-square&logo=android&logoColor=white"> <img src="https://img.shields.io/badge/Koin-F67026?style=flat-square&logo=kotlin&logoColor=white">
-<img src="https://img.shields.io/badge/Coroutines-7F52FF?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/RxJava-B7178C?style=flat-square&logo=reactivex&logoColor=white">
-
 <br>
 
 ---
