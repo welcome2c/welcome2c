@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00C7BE&height=200&section=header&text=Hello,%20I'm%20Donghoon&fontSize=50&fontColor=ffffff" width="100%" />
-</div>
-
 # 👋 안녕하세요, 안드로이드 개발자 김동훈입니다.
 
 <br>
