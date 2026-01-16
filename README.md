@@ -134,6 +134,19 @@
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://play-lh.googleusercontent.com/L1--FbnsCQvt-RWIUv23axm2TDeiKHQ10pf0ff77f_kKzIuQTkk3jjn_ruWZpCsiQf5O0J8mxN0_MnTIhs5c=w240-h480-rw" width="90" style="border-radius: 20%;">
+    </td>
+    <td width="80%">
+      <h3>🍸 Cocktail Wiki</h3>
+      <p>칵테일 레시피 및 정보 제공 위키 앱</p>
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki">
+        <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+    </td>
+  </tr>
 </table>
 
 <br>
