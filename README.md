@@ -1,4 +1,10 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00C7BE&height=200&section=header&text=Hello,%20I'm%20Donghoon&fontSize=50&fontColor=ffffff" width="100%" />
+</div>
+
 # 👋 안녕하세요, 안드로이드 개발자 김동훈입니다.
+
+> 💡 **"최고의 서비스 품질과 안정성을 지향하며, 주도적으로 문제를 해결하고 지속적인 개선을 이뤄내는 개발자입니다."**
 
 <br>
 
@@ -143,6 +149,19 @@
       <h3>🍸 Cocktail Wiki</h3>
       <p>칵테일 레시피 및 정보 제공 위키 앱</p>
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki">
+        <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://play-lh.googleusercontent.com/e24P5ZiJAtQ2P6746unfyl7Vsn7-Tv5g9g3muGAlumF6KKeiaUIpk5uLJQDTyEXyUW4dI9RbVIfDQpGVP2F-odE=w240-h480" width="90" style="border-radius: 20%;">
+    </td>
+    <td width="80%">
+      <h3>🔮 Astro AI</h3>
+      <p>AI 기반 운세 및 타로 상담 앱</p>
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
     </td>
