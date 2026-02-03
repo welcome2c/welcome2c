@@ -99,7 +99,7 @@
 
 ---
 
-## 🗂 Personal App In Google PlayStore
+## 🗂 Personal App In Store
 
 <table width="100%">
   <tr>
@@ -137,6 +137,9 @@
       <p>날씨 기반 옷차림 추천 앱</p>
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast&hl=ko">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+      <a href="https://apps.apple.com/kr/app/weathercast-%EA%B8%B0%EC%83%81%EC%B2%AD-%EB%82%A0%EC%94%A8%EC%99%80-%EA%B8%B0%EC%98%A8%EB%B3%84-%EC%98%B7%EC%B0%A8%EB%A6%BC/id6758431684">
+        <img src="https://img.shields.io/badge/App_Store-Go_to_Store-000000?style=flat-square&logo=apple&logoColor=white" />
       </a>
     </td>
   </tr>
