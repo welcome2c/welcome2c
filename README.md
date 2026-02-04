@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00C7BE&height=200&section=header&text=Hello,%20I'm%20Donghoon&fontSize=50&fontColor=ffffff" width="100%" />
-</div>
-
 # 👋 안녕하세요, 안드로이드 개발자 김동훈입니다.
 
 > 💡 **"최고의 서비스 품질과 안정성을 지향하며, 주도적으로 문제를 해결하고 지속적인 개선을 이뤄내는 개발자입니다."**
@@ -172,7 +168,3 @@
 </table>
 
 <br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00C7BE&height=150&section=footer" width="100%" />
-</div>
