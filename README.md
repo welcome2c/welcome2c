@@ -104,7 +104,7 @@
 <table width="100%">
   <tr>
     <td width="20%" align="center">
-      <img src="https://play-lh.googleusercontent.com/rVI6pEWYqgtMWHkL3amBdNGsAt3Lwh_Ie6tnxQgPPaZ9JPEUJNPixKeLcbORGxz4fl1cD9c9kZjOb6U1EMaW=w480-h960" width="90">
+      <img src="https://lh3.googleusercontent.com/rVI6pEWYqgtMWHkL3amBdNGsAt3Lwh_Ie6tnxQgPPaZ9JPEUJNPixKeLcbORGxz4fl1cD9c9kZjOb6U1EMaW=w480-h960" width="90" style="border-radius: 15px;">
     </td>
     <td width="80%">
       <h3>📱 Pick It</h3>
@@ -117,7 +117,7 @@
   
   <tr>
     <td width="20%" align="center">
-      <img src="https://play-lh.googleusercontent.com/Xcd3F-EY4cLIPayvrCuHNHxJSfVHqIuYwZAawjHpokGTu5Jm1ANXqevfBDAQE1N4IY_ePYuJ9YEcA2Utc2tXrQ=w480-h960" width="90">
+      <img src="https://lh3.googleusercontent.com/Xcd3F-EY4cLIPayvrCuHNHxJSfVHqIuYwZAawjHpokGTu5Jm1ANXqevfBDAQE1N4IY_ePYuJ9YEcA2Utc2tXrQ=w480-h960" width="90" style="border-radius: 15px;">
     </td>
     <td width="80%">
       <h3>🐈 Meow Bow</h3>
@@ -130,7 +130,7 @@
   
   <tr>
     <td width="20%" align="center">
-      <img src="https://play-lh.googleusercontent.com/NapQNMUGFaJA5Egb7_BKMKLQbN7DVSrUaDckaT26eTfJqGS8h-w4RJFmBbk4LQBagV23qeAJi1CGxNPtTwaS=w480-h960" width="90">
+      <img src="https://lh3.googleusercontent.com/NapQNMUGFaJA5Egb7_BKMKLQbN7DVSrUaDckaT26eTfJqGS8h-w4RJFmBbk4LQBagV23qeAJi1CGxNPtTwaS=w480-h960" width="90" style="border-radius: 15px;">
     </td>
     <td width="80%">
       <h3>🌦 Weather Cast</h3>
@@ -146,7 +146,7 @@
 
   <tr>
     <td width="20%" align="center">
-      <img src="https://play-lh.googleusercontent.com/L1--FbnsCQvt-RWIUv23axm2TDeiKHQ10pf0ff77f_kKzIuQTkk3jjn_ruWZpCsiQf5O0J8mxN0_MnTIhs5c=w240-h480-rw" width="90" style="border-radius: 20%;">
+      <img src="https://lh3.googleusercontent.com/L1--FbnsCQvt-RWIUv23axm2TDeiKHQ10pf0ff77f_kKzIuQTkk3jjn_ruWZpCsiQf5O0J8mxN0_MnTIhs5c=w480-h960" width="90" style="border-radius: 15px;">
     </td>
     <td width="80%">
       <h3>🍸 Cocktail Wiki</h3>
@@ -159,7 +159,7 @@
   
   <tr>
     <td width="20%" align="center">
-      <img src="https://play-lh.googleusercontent.com/e24P5ZiJAtQ2P6746unfyl7Vsn7-Tv5g9g3muGAlumF6KKeiaUIpk5uLJQDTyEXyUW4dI9RbVIfDQpGVP2F-odE=w240-h480" width="90" style="border-radius: 20%;">
+      <img src="https://lh3.googleusercontent.com/e24P5ZiJAtQ2P6746unfyl7Vsn7-Tv5g9g3muGAlumF6KKeiaUIpk5uLJQDTyEXyUW4dI9RbVIfDQpGVP2F-odE=w240-h480" width="90" style="border-radius: 15px;">
     </td>
     <td width="80%">
       <h3>🔮 Astro AI</h3>
