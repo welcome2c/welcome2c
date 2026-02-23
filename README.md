@@ -165,6 +165,19 @@
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://play-lh.googleusercontent.com/giPS_DUv24mR4OKJjp-Zr1CvQo-XqKp-FEr1REPgeSHiArcopjpxwDP08UUAEGxk2fLqmdU0268zO0eFLuVTYQ=w480-h960" width="90" style="border-radius: 15px;">
+    </td>
+    <td width="80%">
+      <h3>📝 Pop Quiz Daily</h3>
+      <p>매일매일 풀어보는 재미있는 상식 퀴즈 앱</p>
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily">
+        <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+    </td>
+  </tr>
 </table>
 
 <br>
