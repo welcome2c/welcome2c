@@ -103,7 +103,7 @@
 
 <table width="100%">
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <img src="https://play-lh.googleusercontent.com/rVI6pEWYqgtMWHkL3amBdNGsAt3Lwh_Ie6tnxQgPPaZ9JPEUJNPixKeLcbORGxz4fl1cD9c9kZjOb6U1EMaW=w480-h960" width="90" style="border-radius: 15px;"><br>
       <h3>📱 Pick It</h3>
       <p>결정 장애를 위한 메뉴 선택 룰렛 앱</p>
@@ -111,7 +111,7 @@
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <img src="https://play-lh.googleusercontent.com/Xcd3F-EY4cLIPayvrCuHNHxJSfVHqIuYwZAawjHpokGTu5Jm1ANXqevfBDAQE1N4IY_ePYuJ9YEcA2Utc2tXrQ=w480-h960" width="90" style="border-radius: 15px;"><br>
       <h3>🐈 Meow Bow</h3>
       <p>귀여운 강아지 고양이 사진 구경하기 앱</p>
@@ -119,10 +119,7 @@
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
     </td>
-  </tr>
-  
-  <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <img src="https://play-lh.googleusercontent.com/NapQNMUGFaJA5Egb7_BKMKLQbN7DVSrUaDckaT26eTfJqGS8h-w4RJFmBbk4LQBagV23qeAJi1CGxNPtTwaS=w480-h960" width="90" style="border-radius: 15px;"><br>
       <h3>🌦 Weather Cast</h3>
       <p>날씨 기반 옷차림 추천 앱</p>
@@ -133,7 +130,10 @@
         <img src="https://img.shields.io/badge/App_Store-Go_to_Store-000000?style=flat-square&logo=apple&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="50%">
+  </tr>
+  
+  <tr>
+    <td align="center" width="33%">
       <img src="https://play-lh.googleusercontent.com/L1--FbnsCQvt-RWIUv23axm2TDeiKHQ10pf0ff77f_kKzIuQTkk3jjn_ruWZpCsiQf5O0J8mxN0_MnTIhs5c=w480-h960" width="90" style="border-radius: 15px;"><br>
       <h3>🍸 Cocktail Wiki</h3>
       <p>칵테일 레시피 및 정보 제공 위키 앱</p>
@@ -141,10 +141,7 @@
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
     </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <img src="https://play-lh.googleusercontent.com/e24P5ZiJAtQ2P6746unfyl7Vsn7-Tv5g9g3muGAlumF6KKeiaUIpk5uLJQDTyEXyUW4dI9RbVIfDQpGVP2F-odE=w240-h480" width="90" style="border-radius: 15px;"><br>
       <h3>🔮 Astro AI</h3>
       <p>AI 기반 운세 및 타로 상담 앱</p>
@@ -152,10 +149,10 @@
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <img src="https://play-lh.googleusercontent.com/giPS_DUv24mR4OKJjp-Zr1CvQo-XqKp-FEr1REPgeSHiArcopjpxwDP08UUAEGxk2fLqmdU0268zO0eFLuVTYQ=w480-h960" width="90" style="border-radius: 15px;"><br>
       <h3>📝 Pop Quiz Daily</h3>
-      <p>매일매일 풀어보는 재미있는 상식 퀴즈 앱</p>
+      <p>매일매일 풀어보는 상식 퀴즈 앱</p>
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
