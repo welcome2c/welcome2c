@@ -161,6 +161,19 @@
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://play-lh.googleusercontent.com/MkYQe8YyZ6IlRdse8ys283In_NiNxBiN3zI1AHG-ejkjfoxWbz_h_6hcytS5shePPWBs1dKP3S1EWFZhxTYKeQ" width="90" style="border-radius: 15px;"><br>
+      <h3>🚶‍♂️ Pixel Walker RPG</h3>
+      <p>만보기 기반 RPG 게임 앱</p>
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg">
+        <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="33%"></td>
+    <td align="center" width="33%"></td>
+  </tr>
 </table>
 
 <br>
