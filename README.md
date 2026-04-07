@@ -170,6 +170,9 @@
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
+      <a href="https://apps.apple.com/us/app/pixel-walker-pedometer-rpg/id6760536041">
+        <img src="https://img.shields.io/badge/App_Store-Go_to_Store-000000?style=flat-square&logo=apple&logoColor=white" />
+      </a>
     </td>
     <td align="center" width="33%"></td>
     <td align="center" width="33%"></td>
