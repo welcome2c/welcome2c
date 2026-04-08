@@ -51,49 +51,13 @@
 
 > **라이브 커머스 플랫폼 '소스라이브' 및 송출 앱 개발**
 
-* **소스라이브 2.1v 업데이트** (2022.04 ~ 2022.12)
+* **소스라이브 2.1v 업데이트**
     * 메인/검색 화면 UI/UX 개선 및 리팩토링 진행
     * 플레이어 구매 인증 기능 및 채팅 소켓 통신 방식 고도화
-* **소스라이브 2.0v 리뉴얼** (2021.09 ~ 2021.11)
+* **소스라이브 2.0v 리뉴얼**
     * 전면 리뉴얼 디자인 적용 및 SNS 연동(카카오, 네이버, 페이스북)
     * ExoPlayer2 기반 플레이어 개발 및 AWS Kinesis 데이터 수집 연동
     * AWS AppSync 활용 채팅/방송 정보 구독 구현
-* **소스 스튜디오 (송출 앱) 개발** (2021.04 ~ 2021.06)
-    * Wowza 서버 연동 라이브 송출 기능 구현
-    * AWS AppSync(GraphQL) 기반 채팅 및 방송 제어
-
-<br>
-
-### 🏢 한다소프트
-**안드로이드 앱 개발** | *2018.12 ~ 2020.10*
-
-> **운세 및 영어 학습 플랫폼 리뉴얼 및 유지보수**
-
-* **운세의 정석 리뉴얼** (2019.10 ~ 2020.08)
-    * Java → Kotlin 마이그레이션 진행
-    * 실시간 상담을 위한 mVoIP 및 소켓 통신 라이브러리 적용
-    * 선/후불 통화 서비스 및 결제 모듈 연동
-* **영어신 리뉴얼** (2018.12 ~ 2019.04)
-    * 커스텀 단어장 및 크롤링 기반 단어 뜻 자동 입력 기능 개발
-    * 대용량 단어장 저장 로직 개선을 통한 속도 향상
-
-<br>
-
-### 🏢 쏘피몬
-**안드로이드 앱 개발** | *2018.05 ~ 2018.10*
-
-* **코인 트레이딩 앱 개발**
-    * 개인 지갑 연동 및 자산 시각화 (MPAndroidChart 활용)
-    * AI 서버 연동 매수/매도 시그널 분석 및 자동 매매 기능 구현
-
-<br>
-
-### 🏢 투비시스
-**안드로이드 앱 개발** | *2017.12 ~ 2018.05*
-
-* **삼성영어 / LG U+ / YBM 시연용 앱 개발**
-    * STT(Speech to Text) 활용 영어 발음 평가 및 시각화
-    * AI 챗봇 서버 연동 대화형 학습 인터페이스 구현
 
 <br>
 
@@ -126,7 +90,7 @@
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast&hl=ko">
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
-      <a href="https://apps.apple.com/kr/app/weathercast-%EA%B8%B0%EC%83%81%EC%B2%AD-%EB%82%A0%EC%94%A8%EC%99%80-%EA%B8%B0%EC%98%A8%EB%B3%84-%EC%98%B7%EC%B0%A8%EB%A6%BC/id6758431684">
+      <a href="https://apps.apple.com/kr/app/weathercast-기상청-날씨와-기온별-옷차림/id6758431684">
         <img src="https://img.shields.io/badge/App_Store-Go_to_Store-000000?style=flat-square&logo=apple&logoColor=white" />
       </a>
     </td>
@@ -174,7 +138,14 @@
         <img src="https://img.shields.io/badge/App_Store-Go_to_Store-000000?style=flat-square&logo=apple&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="33%"></td>
+    <td align="center" width="33%">
+      <img src="https://play-lh.googleusercontent.com/64B1-Jbno9zYpHpM_yA5t25JbPWz-nrn5crFGOgotZKMiWzhELWamI-3QFdiP9vn9rN9NPb48-so-WhdM-CuWg=w240-h480-rw" width="90" style="border-radius: 15px;"><br>
+      <h3>⌨️ Gemiboard</h3>
+      <p>AI 기반 스마트 키보드 앱</p>
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard">
+        <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+    </td>
     <td align="center" width="33%"></td>
   </tr>
 </table>
