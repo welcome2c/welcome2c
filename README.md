@@ -132,7 +132,7 @@
       </a>
     </td>
     <td align="center" width="33%">
-      <img src="https://play-lh.googleusercontent.com/NapQNM...3" width="90" style="border-radius: 15px;"><br>
+      <img src="https://play-lh.googleusercontent.com/LxS7wKWQkLcYXbtJz1t8Mi6Sg-9k28JvkNOeLBvU7XFKN6IJEnYD95JjupqkHaMgZhnMBEMsYDFkZBzHlZGsU90=w480-h960" width="90" style="border-radius: 15px;"><br>
       <h3>🎬 Voda</h3>
       <p>일상의 순간을 담는 미디어 서비스</p>
       <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.voda">
