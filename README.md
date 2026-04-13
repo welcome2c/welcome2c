@@ -46,21 +46,6 @@
 
 <br>
 
-### 🏢 모비두 (Sauce Live)
-**안드로이드 앱 개발** | *2021.04 ~ 2023.02*
-
-> **라이브 커머스 플랫폼 '소스라이브' 및 송출 앱 개발**
-
-* **소스라이브 2.1v 업데이트**
-    * 메인/검색 화면 UI/UX 개선 및 리팩토링 진행
-    * 플레이어 구매 인증 기능 및 채팅 소켓 통신 방식 고도화
-* **소스라이브 2.0v 리뉴얼**
-    * 전면 리뉴얼 디자인 적용 및 SNS 연동(카카오, 네이버, 페이스북)
-    * ExoPlayer2 기반 플레이어 개발 및 AWS Kinesis 데이터 수집 연동
-    * AWS AppSync 활용 채팅/방송 정보 구독 구현
-
-<br>
-
 ---
 
 ## 🗂 Personal App In Store
@@ -146,7 +131,14 @@
         <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="33%"></td>
+    <td align="center" width="33%">
+      <img src="https://play-lh.googleusercontent.com/NapQNM...3" width="90" style="border-radius: 15px;"><br>
+      <h3>🎬 Voda</h3>
+      <p>일상의 순간을 담는 미디어 서비스</p>
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.voda">
+        <img src="https://img.shields.io/badge/Google_Play-Go_to_Store-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+      </a>
+    </td>
   </tr>
 </table>
 
