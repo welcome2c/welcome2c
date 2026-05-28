@@ -143,7 +143,6 @@
 ## 🚀 1인 브랜드 사이드 프로젝트 — Tap Studio
 > **기획부터 UI/UX 디자인, 클라이언트 개발, 서버리스 인프라 구축, 수익화(구독/인앱), 배포 및 스토어 운영까지 모든 과정을 혼자 완결해 오고 있습니다.**  
 > **공통 스택**: `Kotlin` · `Compose` · `Hilt` · `Flow` · `Firebase` · `AdMob` · `Play Billing` — *AI 기능이 있는 앱은 **Firebase AI Logic (Gemini)** 사용*  
-> [➔ Google Play에서 탭 스튜디오 앱 전체보기](https://play.google.com/store/search?q=%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4&c=apps)
 
 | 프로젝트 명 | 플랫폼 | 한 줄 설명 | 활용 기술 및 차별점 | 스토어 링크 |
 |:---|:---|:---|:---|:---|
