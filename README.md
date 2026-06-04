@@ -146,15 +146,15 @@
 
 | 프로젝트 명 | 플랫폼 | 한 줄 설명 | 활용 기술 및 차별점 | 스토어 링크 |
 |:---|:---|:---|:---|:---|
-| **🌦 Weather Cast** | AOS / iOS | 날씨 기반 옷차림 추천 | 기상청 공공데이터 API · Kakao API · Gemini 코디 · 홈 위젯 | [Google Play](https://play.google.com/store/search?q=Weather+Cast+%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4&c=apps) / [App Store](https://apps.apple.com/kr/search?term=Weather+Cast+%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4) |
-| **🔮 Astro AI** | AOS | AI 기반 운세·타로 상담 | 타로 로컬 데이터(JSON) · Gemini 해석 · Room 히스토리 | [Google Play](https://play.google.com/store/apps/details?id=com.tapstudio.astroai) |
-| **👟 Pixel Walker RPG** | AOS / iOS | 만보기 기반 RPG 게임 | 걸음 센서(StepCounter) · Firestore · WidgetKit/ActivityKit · fastlane | [Google Play](https://play.google.com/store/search?q=Pixel+Walker+RPG+%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4&c=apps) / [App Store](https://apps.apple.com/kr/search?term=Pixel+Walker+RPG+%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4) |
-| **🐱 Meow Bow** | AOS | 귀여운 강아지·고양이 사진 구경 | TheCatAPI / TheDogAPI 외부 REST(Retrofit) | [Google Play](https://play.google.com/store/apps/details?id=com.tapstudio.meowbow) |
-| **📸 Voda** | AOS | 스크린샷 기반 미디어 검색 | 스크린샷 미디어 인덱싱 · **Gemini 이미지 분석** · RTDN 구독 | [Google Play](https://play.google.com/store/apps/details?id=com.tapstudio.voda) |
-| **⌨ Gemiboard** | AOS | AI 기반 스마트 키보드 | Custom InputMethodService · **천지인 한글 오토마타 직접 구현** · Gemini 글 교정 | [Google Play](https://play.google.com/store/apps/details?id=com.tapstudio.gemiboard) |
-| **🍹 Cocktail Wiki** | AOS | 칵테일 레시피·정보 위키 | 로컬 데이터(JSON) · Gemini 챗 · Room 즐겨찾기 | [Google Play](https://play.google.com/store/apps/details?id=com.tapstudio.cocktail) |
-| **🎯 Pick It** | AOS | 결정 장애를 위한 메뉴 선택 룰렛 | 로컬 룰렛 · Room 히스토리 | [Google Play](https://play.google.com/store/search?q=PickIt+%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4&c=apps) |
-| **🧠 Pop Quiz Daily** | AOS / iOS | 매일 풀어보는 상식 퀴즈 | **Kotlin Multiplatform(공유)** · Room KMP · GitLive Firebase | [Google Play](https://play.google.com/store/apps/details?id=com.tapstudio.popquizdaily) / [App Store](https://apps.apple.com/kr/search?term=Pop+Quiz+Daily+%ED%85%9D+%EC%8A%A4%ED%8A%AC%EB%94%94%EC%98%A4) |
+| **🌦 Weather Cast** | AOS / iOS | 날씨 기반 옷차림 추천 | 기상청 공공데이터 API · Kakao API · Gemini 코디 · 홈 위젯 | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast) / [App Store](https://apps.apple.com/kr/app/id6758431684) |
+| **🔮 Astro AI** | AOS | AI 기반 운세·타로 상담 | 타로 로컬 데이터(JSON) · Gemini 해석 · Room 히스토리 | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai) |
+| **👟 Pixel Walker RPG** | AOS / iOS | 만보기 기반 RPG 게임 | 걸음 센서(StepCounter) · Firestore · WidgetKit/ActivityKit · fastlane | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg) / [App Store](https://apps.apple.com/kr/app/id6760536041) |
+| **🐱 Meow Bow** | AOS | 귀여운 강아지·고양이 사진 구경 | TheCatAPI / TheDogAPI 외부 REST(Retrofit) | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow) |
+| **📸 Voda** | AOS | 스크린샷 기반 미디어 검색 | 스크린샷 미디어 인덱싱 · **Gemini 이미지 분석** · RTDN 구독 | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.voda) |
+| **⌨ Gemiboard** | AOS | AI 기반 스마트 키보드 | Custom InputMethodService · **천지인 한글 오토마타 직접 구현** · Gemini 글 교정 | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard) |
+| **🍹 Cocktail Wiki** | AOS | 칵테일 레시피·정보 위키 | 로컬 데이터(JSON) · Gemini 챗 · Room 즐겨찾기 | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki) |
+| **🎯 Pick It** | AOS | 결정 장애를 위한 메뉴 선택 룰렛 | 로컬 룰렛 · Room 히스토리 | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit) |
+| **🧠 Pop Quiz Daily** | AOS / iOS | 매일 풀어보는 상식 퀴즈 | **Kotlin Multiplatform(공유)** · Room KMP · GitLive Firebase | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) / [App Store](https://apps.apple.com/kr/app/id6759132499) |
 | **📦 CrossPromoSDK** | SDK | 자체 앱 교차 홍보 SDK | JitPack 배포 · AOS/iOS/Firestore 공통 | [GitHub](https://github.com/welcome2c) |
 
 <details>
