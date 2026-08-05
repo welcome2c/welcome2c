@@ -157,7 +157,7 @@
 | **🧠 Pop Quiz Daily** | AOS / iOS | 매일 풀어보는 상식 퀴즈 | **Kotlin Multiplatform(공유)** · Room KMP · GitLive Firebase | [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) / [App Store](https://apps.apple.com/kr/app/id6759132499) |
 | **📦 CrossPromoSDK** | SDK | 자체 앱 교차 홍보 SDK | JitPack 배포 · AOS/iOS/Firestore 공통 | [GitHub](https://github.com/welcome2c) |
 
-<details>
+<!-- <details>
 <summary><b>🛠️ 개인 프로젝트 핵심 트러블슈팅 (운영 중 실제 해결)</b></summary>
 <br>
 
@@ -167,7 +167,7 @@
 - **한글 IME 오토마타 직접 구현 (Gemiboard)** — 천지인 복합 모음(ㅘ/ㅙ/ㅝ/ㅞ) 미입력 버그, IME 스위처 누락 등 키보드 코어 로직 직접 디버깅
 - **방치형 RPG 라이브 이슈 (Pixel Walker)** — EXP `Int32` 오버플로우, 백그라운드 일일 퀘스트 집계 누락, 익명 로그인 실패 시 크래시 등 신속 핫픽스
 - **구독 결제 안정화 (Voda)** — 익명 사용자 RTDN 지원 및 구독 상태 동기화 race condition 해결
-</details>
+</details> -->
 
 ---
 
