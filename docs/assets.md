@@ -14,6 +14,8 @@ Python 표준 라이브러리만 사용합니다. 앱 아이콘은 SVG 안에 �
 
 ## 앱 이미지 출처
 
+기술 배지의 로고는 [Simple Icons](https://github.com/simple-icons/simple-icons)에서 가져와 로컬 SVG로 구성했습니다. 배지는 외부 이미지 서비스에 의존하지 않고 저장소에서 직접 제공합니다.
+
 앱 아이콘과 스크린샷은 아래 Tap Studio 앱의 공개 스토어 자료를 사용했습니다. 2026-10-30에 확인한 이미지이며, 앱 업데이트에 따라 실제 화면이 달라질 수 있습니다.
 
 - [오늘뭐입지 · WeatherCast — App Store](https://apps.apple.com/kr/app/id6758431684)
