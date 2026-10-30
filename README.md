@@ -1,6 +1,8 @@
 # 김동훈 · Android Developer 👋
 
-2017년부터 금융·라이브 커머스·교육 서비스를 개발해 왔습니다. 현재 **한화생명**에서 인증·보안과 **Jetpack Compose 디자인 시스템**을 개발하고, 개인 브랜드 **Tap Studio**에서 Android·iOS 앱을 기획부터 출시·운영까지 직접 만듭니다.
+2017년부터 금융·라이브 커머스·교육 분야의 **Android 앱**을 개발해 왔습니다.\
+현재 **한화생명 Android 앱의 로그인·PIN·생체인증 화면과 사용자 흐름**, **Jetpack Compose 디자인 시스템**을 개발합니다.\
+개인 브랜드 **Tap Studio**에서는 Android·iOS 앱을 기획부터 출시·운영까지 직접 만듭니다.
 
 <p>
   <img src="assets/badges/android.svg" height="22" alt="Android">
@@ -20,25 +22,28 @@
 **2023.02 ~ 현재** · 대고객 서비스와 보험설계사 영업지원 앱
 
 - **Compose 디자인 시스템:** 다국어·태블릿용 공통 컴포넌트와 Catalog, 실제 텍스트 폭을 반영한 탭을 개발했습니다.
-- **인증·앱 안정성:** OnePass 중복 요청·거래 상태 일관성과 화면 전환 결과의 직렬화 크래시를 개선했습니다.
+- **앱 내 인증 흐름:** 로그인·PIN·생체인증 화면을 개발하고, 인증 SDK 연동과 화면 전환·결과 전달을 개선했습니다.
 - **AI 리뷰 자동화:** GitLab CI 기반 리뷰의 초기 구축, 모델 분기·변경 행 검증·Slack 알림을 개발했습니다.
 
 <details>
 <summary><b>실무 기술 사례 · 무엇을 어떻게 개선했는지</b></summary>
 
-- **Compose 디자인 시스템** — 공통 컴포넌트와 Catalog를 개발하고, 다국어·태블릿에 대응했습니다. 탭 라벨을 글자 수 대신 `TextMeasurer`로 측정한 실제 폭에 맞춰 처리했습니다.
+- **Compose 디자인 시스템** — 공통 컴포넌트와 Catalog를 개발하고, 다국어·태블릿에 대응했습니다.\
+  탭 라벨을 글자 수 대신 `TextMeasurer`로 측정한 실제 폭에 맞춰 처리했습니다.
 - **공통 UI 안정성 개선** — `ImmutableList` 도입과 안정성 어노테이션 정리, `remember`·리스트 key·스타일 캐싱으로 컴포넌트의 상태와 반복 계산을 개선했습니다.
-- **인증 흐름 안정화** — PIN·생체인증의 등록·변경·실패 흐름을 개발했습니다. OnePass 중복 요청, 거래 상태 일관성, 인증수단 전환 시 콜백 전달을 개선했습니다.
+- **인증 화면·SDK 연동** — Android 앱의 로그인·PIN·생체인증 화면과 등록·변경·실패 시 사용자 흐름을 개발했습니다.\
+  OnePass SDK의 중복 요청, 거래 상태 일관성, 인증수단 전환 시 콜백 전달을 개선했습니다.
 - **화면 생명주기 문제 해결** — navigation result와 콜백의 saved state 직렬화 크래시를 수정하고, 결과 전달을 메모리 상태로 분리했습니다.
 - **기기·운영 환경 대응** — 문서 촬영·DocumentScanner 경로에 Foreground Service를 연결하고, 16 KB 페이지 크기 호환성과 Remote Config 기반 WebView 최소 버전 확인을 적용했습니다.
-- **개발 도구 구축** — GitLab CI에 Claude 기반 AI 코드 리뷰를 최초 구축했습니다. 초기 모델 분기, diff 헤더 보존, 코멘트 대상 파일·행 검증과 Slack 알림을 개발했습니다.
+- **개발 도구 구축** — GitLab CI에 Claude 기반 AI 코드 리뷰를 최초 구축했습니다.\
+  초기 모델 분기, diff 헤더 보존, 코멘트 대상 파일·행 검증과 Slack 알림을 개발했습니다.
 
 </details>
 
 <details>
 <summary><b>한화생명 메인 앱·소크라택스 경험 더 보기</b></summary>
 
-- 로그인, PIN·생체인증, 공동인증서와 통합인증 기능을 개발·운영했습니다.
+- Android 앱의 로그인·PIN·생체인증·공동인증서 등록 화면과 인증 SDK 연동을 개발·운영했습니다.
 - 웹 기반 회원가입·인증 흐름을 Kotlin 네이티브로 전환했습니다.
 - 인증수단 마이그레이션 과정의 미등록 단말, 연속 실패와 갱신 예외를 처리했습니다.
 - 보안키패드를 연동하고 폴더블 기기의 입력 레이아웃을 개선했습니다.
@@ -79,7 +84,8 @@
 
 날씨와 외출 시간에 맞는 **옷차림 추천 앱** · Android / iOS
 
-- **개발·운영:** 캐시 우선 날씨 표시, 대기질 재시도와 측정 시각 기반 이전 값 표시를 개선했습니다. 위젯 이미지 복구를 Android의 `WorkManager`, iOS의 백그라운드 전송으로 보완했습니다.
+- **개발·운영:** 캐시 우선 날씨 표시, 대기질 재시도와 측정 시각 기반 이전 값 표시를 개선했습니다.\
+  위젯 이미지 복구를 Android의 `WorkManager`, iOS의 백그라운드 전송으로 보완했습니다.
 - **기술:** Kotlin · Compose · SwiftUI · WidgetKit · Firebase AI Logic
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast) · [App Store](https://apps.apple.com/kr/app/id6758431684)
 
@@ -87,7 +93,8 @@
 
 걸음 수로 캐릭터를 성장시키는 **만보기 RPG** · Android / iOS
 
-- **개발·운영:** 걸음 수를 게임 진행과 일일 퀘스트에 연결했습니다. iOS의 백그라운드 걸음 수 반영 누락과 퀘스트 중복 집계를 수정했습니다.
+- **개발·운영:** 걸음 수를 게임 진행과 일일 퀘스트에 연결했습니다.\
+  iOS의 백그라운드 걸음 수 반영 누락과 퀘스트 중복 집계를 수정했습니다.
 - **기술:** Kotlin · Compose · SwiftUI · 걸음 센서 · Firebase · 위젯
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg) · [App Store](https://apps.apple.com/kr/app/id6760536041)
 
@@ -95,7 +102,8 @@
 
 한글 입력과 **AI 문장 교정·변환**을 담은 키보드 · Android
 
-- **개발·운영:** `InputMethodService` 기반 키보드와 한글 오토마타를 구현했습니다. 천지인 복합 모음·연속 탭·타임아웃 처리를 입력 시퀀스 테스트로 확인할 수 있게 구성했습니다.
+- **개발·운영:** `InputMethodService` 기반 키보드와 한글 오토마타를 구현했습니다.\
+  천지인 복합 모음·연속 탭·타임아웃 처리를 입력 시퀀스 테스트로 확인할 수 있게 구성했습니다.
 - **기술:** Kotlin · Compose · InputMethodService · 한글 오토마타 · Gemini
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard)
 
@@ -103,7 +111,8 @@
 
 매일 풀어보는 **상식 퀴즈 앱** · Android / iOS
 
-- **개발·운영:** `commonMain`에서 화면·상태·데이터 계층을 공유하고, 플랫폼별 기능을 분리했습니다. Room 기반 기록과 GitLive Firebase, Koin을 공통 코드에 구성했습니다.
+- **개발·운영:** `commonMain`에서 화면·상태·데이터 계층을 공유하고, 플랫폼별 기능을 분리했습니다.\
+  Room 기반 기록과 GitLive Firebase, Koin을 공통 코드에 구성했습니다.
 - **기술:** Kotlin Multiplatform · Compose Multiplatform · Room · Koin · Firebase
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) · [App Store](https://apps.apple.com/kr/app/id6759132499)
 
