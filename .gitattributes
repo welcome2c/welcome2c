@@ -1,0 +1,2 @@
+assets/*.svg linguist-generated=true
+scripts/generate_assets.py linguist-documentation=true

@@ -21,20 +21,24 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/weathercast-dark.svg">
         <img src="assets/weathercast-light.svg" width="100%" alt="WeatherCast · 오늘뭐입지 — 날씨에서 옷차림까지">
       </picture>
+      </a>
       <h3>오늘뭐입지 · WeatherCast</h3>
       <p>날씨와 외출 시간에 맞는 옷차림 추천.<br>홈 위젯으로 오늘의 날씨를 빠르게 확인합니다.</p>
       <p><sub>Kotlin · Compose · SwiftUI · WidgetKit</sub></p>
       <p><a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast">Google Play ↗</a> · <a href="https://apps.apple.com/kr/app/id6758431684">App Store ↗</a></p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/pixel-walker-dark.svg">
         <img src="assets/pixel-walker-light.svg" width="100%" alt="Pixel Walker RPG — 걷는 일상이 모험으로">
       </picture>
+      </a>
       <h3>Pixel Walker RPG</h3>
       <p>걸음 수로 성장하는 만보기 RPG.<br>센서·백그라운드 집계·퀘스트를 연결합니다.</p>
       <p><sub>Step sensor · Firebase · SwiftUI · Widgets</sub></p>
@@ -43,20 +47,24 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/gemiboard-dark.svg">
         <img src="assets/gemiboard-light.svg" width="100%" alt="GemiBoard — 입력부터 AI 글 교정까지">
       </picture>
+      </a>
       <h3>GemiBoard</h3>
       <p>한글 입력과 AI 글 교정을 담은 키보드.<br>천지인 조합 로직과 입력 시퀀스를 직접 다룹니다.</p>
       <p><sub>InputMethodService · 한글 오토마타 · Gemini</sub></p>
       <p><a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard">Google Play ↗</a></p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/pop-quiz-daily-dark.svg">
         <img src="assets/pop-quiz-daily-light.svg" width="100%" alt="Pop Quiz Daily — 매일 쌓이는 작은 지식">
       </picture>
+      </a>
       <h3>Pop Quiz Daily</h3>
       <p>매일 풀어보는 상식 퀴즈.<br>KMP로 Android·iOS의 화면과 데이터 계층을 공유합니다.</p>
       <p><sub>KMP · Compose Multiplatform · Room · Koin</sub></p>
