@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "login": "welcome2c",
+  "generated_at": "2026-11-02T08:37:00+00:00",
+  "period": {
+    "from": "2025-11-02T08:37:00+00:00",
+    "to": "2026-11-02T08:37:00+00:00"
+  },
+  "scope": {
+    "commits": "Unique commits authored by the account in owned non-fork default branches; public and private.",
+    "pull_requests": "Pull requests created by the account across accessible repositories in the same period.",
+    "languages": "Owned non-fork repository code bytes, excluding the profile repository; public and private.",
+    "company_gitlab_included": false
+  },
+  "commits": 140,
+  "pull_requests": 75,
+  "commit_days": 45,
+  "owned_repositories": 32,
+  "public_repositories": 6,
+  "public_stars": 19,
+  "weeks": [
+    {
+      "date": "2025-10-27",
+      "count": 0
+    },
+    {
+      "date": "2025-11-03",
+      "count": 0
+    },
+    {
+      "date": "2025-11-10",
+      "count": 0
+    },
+    {
+      "date": "2025-11-17",
+      "count": 0
+    },
+    {
+      "date": "2025-11-24",
+      "count": 0
+    },
+    {
+      "date": "2025-12-01",
+      "count": 0
+    },
+    {
+      "date": "2025-12-08",
+      "count": 0
+    },
+    {
+      "date": "2025-12-15",
+      "count": 0
+    },
+    {
+      "date": "2025-12-22",
+      "count": 2
+    },
+    {
+      "date": "2025-12-29",
+      "count": 1
+    },
+    {
+      "date": "2026-01-05",
+      "count": 8
+    },
+    {
+      "date": "2026-01-12",
+      "count": 1
+    },
+    {
+      "date": "2026-01-19",
+      "count": 1
+    },
+    {
+      "date": "2026-01-26",
+      "count": 0
+    },
+    {
+      "date": "2026-02-02",
+      "count": 3
+    },
+    {
+      "date": "2026-02-09",
+      "count": 0
+    },
+    {
+      "date": "2026-02-16",
+      "count": 0
+    },
+    {
+      "date": "2026-02-23",
+      "count": 3
+    },
+    {
+      "date": "2026-03-02",
+      "count": 2
+    },
+    {
+      "date": "2026-03-09",
+      "count": 2
+    },
+    {
+      "date": "2026-03-16",
+      "count": 0
+    },
+    {
+      "date": "2026-03-23",
+      "count": 4
+    },
+    {
+      "date": "2026-03-30",
+      "count": 0
+    },
+    {
+      "date": "2026-04-06",
+      "count": 4
+    },
+    {
+      "date": "2026-04-13",
+      "count": 7
+    },
+    {
+      "date": "2026-04-20",
+      "count": 0
+    },
+    {
+      "date": "2026-04-27",
+      "count": 0
+    },
+    {
+      "date": "2026-05-04",
+      "count": 0
+    },
+    {
+      "date": "2026-05-11",
+      "count": 0
+    },
+    {
+      "date": "2026-05-18",
+      "count": 0
+    },
+    {
+      "date": "2026-05-25",
+      "count": 2
+    },
+    {
+      "date": "2026-06-01",
+      "count": 1
+    },
+    {
+      "date": "2026-06-08",
+      "count": 0
+    },
+    {
+      "date": "2026-06-15",
+      "count": 0
+    },
+    {
+      "date": "2026-06-22",
+      "count": 0
+    },
+    {
+      "date": "2026-06-29",
+      "count": 0
+    },
+    {
+      "date": "2026-07-06",
+      "count": 0
+    },
+    {
+      "date": "2026-07-13",
+      "count": 0
+    },
+    {
+      "date": "2026-07-20",
+      "count": 0
+    },
+    {
+      "date": "2026-07-27",
+      "count": 0
+    },
+    {
+      "date": "2026-08-03",
+      "count": 1
+    },
+    {
+      "date": "2026-08-10",
+      "count": 0
+    },
+    {
+      "date": "2026-08-17",
+      "count": 0
+    },
+    {
+      "date": "2026-08-24",
+      "count": 20
+    },
+    {
+      "date": "2026-08-31",
+      "count": 0
+    },
+    {
+      "date": "2026-09-07",
+      "count": 0
+    },
+    {
+      "date": "2026-09-14",
+      "count": 14
+    },
+    {
+      "date": "2026-09-21",
+      "count": 7
+    },
+    {
+      "date": "2026-09-28",
+      "count": 7
+    },
+    {
+      "date": "2026-10-05",
+      "count": 2
+    },
+    {
+      "date": "2026-10-12",
+      "count": 21
+    },
+    {
+      "date": "2026-10-19",
+      "count": 21
+    },
+    {
+      "date": "2026-10-26",
+      "count": 6
+    },
+    {
+      "date": "2026-11-02",
+      "count": 0
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kotlin",
+      "bytes": 5480059,
+      "color": "#A97BFF"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 4913950,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Swift",
+      "bytes": 2100795,
+      "color": "#F05138"
+    },
+    {
+      "name": "Dart",
+      "bytes": 477540,
+      "color": "#00B4AB"
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 348110,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Java",
+      "bytes": 163639,
+      "color": "#b07219"
+    },
+    {
+      "name": "Python",
+      "bytes": 88744,
+      "color": "#3572A5"
+    },
+    {
+      "name": "CSS",
+      "bytes": 51089,
+      "color": "#663399"
+    },
+    {
+      "name": "HTML",
+      "bytes": 44580,
+      "color": "#e34c26"
+    },
+    {
+      "name": "Shell",
+      "bytes": 19911,
+      "color": "#89e051"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 9578,
+      "color": "#336790"
+    },
+    {
+      "name": "Ruby",
+      "bytes": 5507,
+      "color": "#701516"
+    },
+    {
+      "name": "Objective-C",
+      "bytes": 76,
+      "color": "#438eff"
+    }
+  ]
+}

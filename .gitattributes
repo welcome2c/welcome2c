@@ -1,2 +1,5 @@
 assets/*.svg linguist-generated=true
+assets/activity/*.svg linguist-generated=true
 scripts/generate_assets.py linguist-documentation=true
+scripts/update_profile_stats.py linguist-documentation=true
+scripts/render_profile_stats.py linguist-documentation=true

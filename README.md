@@ -15,6 +15,28 @@
 
 📬 **Contact** · [welcome2c@naver.com](mailto:welcome2c@naver.com)
 
+## GitHub 활동
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity/dashboard-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/activity/dashboard-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity/dashboard-dark.svg">
+  <img src="assets/activity/dashboard-light.svg" width="100%" alt="최근 1년 GitHub 활동: 작성 커밋 140개, 생성 PR 75개, 소유 저장소 32개. 최근 12주 커밋 그래프와 저장소 언어 비중.">
+</picture>
+
+<details>
+<summary>활동 통계의 집계 기준</summary>
+
+- **기간:** 최근 1년 · 이미지에 표시한 집계일 기준입니다.
+- **커밋:** 공개·비공개 소유 저장소의 기본 브랜치에서 계정에 연결된 작성 커밋을 집계하고, 같은 커밋 ID는 중복 제거합니다.
+- **PR:** 같은 기간 계정으로 생성한 PR 수입니다.
+- **주별 그래프:** 집계 중인 이번 주를 제외한 최근 12주를 표시합니다.
+- **저장소:** 집계 시점에 직접 소유한 공개·비공개 저장소를 합산하고 포크는 제외합니다.
+- **언어 비중:** 프로필 저장소를 제외한 코드 바이트 기준입니다.
+- 회사 GitLab 활동은 합산하지 않으며, 비공개 저장소의 이름은 공개하지 않습니다.
+
+</details>
+
 ## 💼 실무 경험
 
 ### 한화생명 · Android 개발

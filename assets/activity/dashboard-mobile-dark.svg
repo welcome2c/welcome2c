@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="826" viewBox="0 0 640 826" role="img" aria-labelledby="title description"><title id="title">DevHoony의 GitHub 활동</title><desc id="description">2026.11.02 집계. 최근 1년 GitHub 활동. 작성 커밋 140; 생성 PR 75; 소유 저장소 32. 공개·비공개 소유 저장소를 합산하고 포크와 회사 GitLab은 제외합니다. 계정에 연결된 작성 커밋을 기본 브랜치에서 중복 제거합니다. 그래프는 완료된 최근 12주의 커밋이며 언어 비중은 코드 바이트 기준입니다.</desc><rect width="640" height="826" rx="14" fill="#151b26"/>
+<text x="30" y="46" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="26" font-weight="500" text-anchor="start">작성 커밋</text>
+<text x="28" y="114" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="62" font-weight="650" text-anchor="start">140</text>
+<text x="30" y="150" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="25" font-weight="400" text-anchor="start">최근 1년</text>
+<text x="223.333" y="46" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="26" font-weight="500" text-anchor="start">생성 PR</text>
+<text x="221.333" y="114" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="62" font-weight="650" text-anchor="start">75</text>
+<text x="223.333" y="150" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="25" font-weight="400" text-anchor="start">최근 1년</text>
+<text x="416.667" y="46" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="26" font-weight="500" text-anchor="start">소유 저장소</text>
+<text x="414.667" y="114" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="62" font-weight="650" text-anchor="start">32</text>
+<text x="416.667" y="150" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="25" font-weight="400" text-anchor="start">포크 제외</text>
+<path d="M30 177H610" fill="none" stroke="#344157" stroke-width="1"/>
+<text x="30" y="225" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="28" font-weight="600" text-anchor="start">주별 커밋</text>
+<text x="610" y="225" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="end">최근 12주 · 완료된 주 기준</text>
+<path d="M66 445H606" fill="none" stroke="#344157" stroke-width="1"/>
+<text x="54" y="452" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="end">0</text>
+<path d="M66 357.5H606" fill="none" stroke="#344157" stroke-width="1"/>
+<text x="54" y="364.5" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="end">15</text>
+<path d="M66 270H606" fill="none" stroke="#344157" stroke-width="1"/>
+<text x="54" y="277" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="end">30</text>
+<path d="M66.00 445.00L115.09 445.00L164.18 328.33L213.27 445.00L262.36 445.00L311.45 363.33L360.55 404.17L409.64 404.17L458.73 433.33L507.82 322.50L556.91 322.50L606.00 410.00L606 445L66 445Z" fill="#a97bff" fill-opacity=".12"/>
+<path d="M66.00 445.00L115.09 445.00L164.18 328.33L213.27 445.00L262.36 445.00L311.45 363.33L360.55 404.17L409.64 404.17L458.73 433.33L507.82 322.50L556.91 322.50L606.00 410.00" fill="none" stroke="#a97bff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="66.00" cy="445.00" r="3.5" fill="#a97bff"><title>2026-08-10 주: 0커밋</title></circle>
+<circle cx="115.09" cy="445.00" r="3.5" fill="#a97bff"><title>2026-08-17 주: 0커밋</title></circle>
+<circle cx="164.18" cy="328.33" r="3.5" fill="#a97bff"><title>2026-08-24 주: 20커밋</title></circle>
+<circle cx="213.27" cy="445.00" r="3.5" fill="#a97bff"><title>2026-08-31 주: 0커밋</title></circle>
+<circle cx="262.36" cy="445.00" r="3.5" fill="#a97bff"><title>2026-09-07 주: 0커밋</title></circle>
+<circle cx="311.45" cy="363.33" r="3.5" fill="#a97bff"><title>2026-09-14 주: 14커밋</title></circle>
+<circle cx="360.55" cy="404.17" r="3.5" fill="#a97bff"><title>2026-09-21 주: 7커밋</title></circle>
+<circle cx="409.64" cy="404.17" r="3.5" fill="#a97bff"><title>2026-09-28 주: 7커밋</title></circle>
+<circle cx="458.73" cy="433.33" r="3.5" fill="#a97bff"><title>2026-10-05 주: 2커밋</title></circle>
+<circle cx="507.82" cy="322.50" r="3.5" fill="#a97bff"><title>2026-10-12 주: 21커밋</title></circle>
+<circle cx="556.91" cy="322.50" r="3.5" fill="#a97bff"><title>2026-10-19 주: 21커밋</title></circle>
+<circle cx="606.00" cy="410.00" r="3.5" fill="#a97bff"><title>2026-10-26 주: 6커밋</title></circle>
+<text x="66" y="480" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">08.10</text>
+<text x="360.545" y="480" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="middle">09.21</text>
+<text x="606" y="480" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="end">10.26</text>
+<text x="30" y="539" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="28" font-weight="600" text-anchor="start">저장소 언어 비중</text>
+<rect x="30.00" y="563" width="231.94" height="16" fill="#A97BFF"/>
+<rect x="261.94" y="563" width="207.98" height="16" fill="#3178c6"/>
+<rect x="469.92" y="563" width="88.92" height="16" fill="#F05138"/>
+<rect x="558.84" y="563" width="20.21" height="16" fill="#00B4AB"/>
+<rect x="579.05" y="563" width="30.95" height="16" fill="#8795a8"/>
+<circle cx="34" cy="613" r="4.5" fill="#A97BFF"/>
+<text x="47" y="620" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">Kotlin 40.0%</text>
+<circle cx="334" cy="613" r="4.5" fill="#3178c6"/>
+<text x="347" y="620" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">TypeScript 35.9%</text>
+<circle cx="34" cy="656" r="4.5" fill="#F05138"/>
+<text x="47" y="663" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">Swift 15.3%</text>
+<circle cx="334" cy="656" r="4.5" fill="#00B4AB"/>
+<text x="347" y="663" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">Dart 3.5%</text>
+<circle cx="34" cy="699" r="4.5" fill="#8795a8"/>
+<text x="47" y="706" fill="#eef2f8" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">Other 5.3%</text>
+<text x="30" y="778" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="24" font-weight="400" text-anchor="start">2026.11.02 집계 · 공개·비공개 합산</text>
+<text x="30" y="809" fill="#b3bfd0" font-family="-apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, &#x27;Apple SD Gothic Neo&#x27;, sans-serif" font-size="23" font-weight="400" text-anchor="start">코드 바이트 기준 · 회사 GitLab 제외</text></svg>
