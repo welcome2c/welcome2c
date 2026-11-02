@@ -21,122 +21,90 @@
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity/dashboard-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/activity/dashboard-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity/dashboard-dark.svg">
-  <img src="assets/activity/dashboard-light.svg" width="100%" alt="최근 1년 GitHub 활동: 작성 커밋 140개, 생성 PR 75개, 소유 저장소 32개. 최근 12주 커밋 그래프와 저장소 언어 비중.">
+  <img src="assets/activity/dashboard-light.svg" width="760" alt="최근 1년 GitHub 활동: 작성 커밋 140개, 생성 PR 75개, 소유 저장소 32개. 최근 12주 커밋 그래프와 저장소 언어 비중.">
 </picture>
 
+## 실무 경력
+
+<table>
+  <thead><tr><th align="left">회사 · 기간</th><th align="left">제품과 개발 경험</th></tr></thead>
+  <tbody>
+    <tr>
+      <td valign="top" width="100"><strong>한화생명</strong><br><sub>2023.02 ~ 현재</sub><br><sub>Android 개발</sub></td>
+      <td><strong>대고객 서비스 · 보험설계사 영업지원 앱 · 소크라택스</strong><br>Compose 디자인 시스템 · 공통 UI<br>앱 기능 · 인증 SDK · 세금 신고 시뮬레이션<br>문서 촬영 · 기기 호환성 · AI 코드 리뷰</td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>모비두</strong><br><sub>2021.04 ~ 2023.02</sub><br><sub>Android 개발</sub></td>
+      <td><strong>소스라이브 · 소스 스튜디오</strong><br>메인·검색 UI · 영상 재생 · SNS 간편 로그인 · 실시간 채팅 · 구매인증<br>모바일 라이브 송출 · 방송 상태 제어 · 시청 지표 수집<br><sub>ExoPlayer · Wowza RTMP · AppSync GraphQL · AWS Kinesis</sub></td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>한다소프트</strong><br><sub>2018.12 ~ 2020.10</sub><br><sub>Android 개발</sub></td>
+      <td><strong>운세의 정석 · 영어신</strong><br>Java → Kotlin 전환 · mVoIP 상담 · 소켓 통신 · 인앱·PG 결제<br>단어장·사전 데이터 연동 · SQLite·Room 저장·조회 개선</td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>쏘피몬 · 투비시스</strong><br><sub>2017.12 ~ 2018.10</sub><br><sub>Android 개발</sub></td>
+      <td><strong>트레이딩 · 영어 학습 서비스</strong><br>실시간 시세 차트 · 서버 분석 결과 연동 · 트레이딩 기능<br>STT 발음 평가 · 오디오 분석 시각화 · 학습 챗봇 UI</td>
+    </tr>
+  </tbody>
+</table>
+
 <details>
-<summary>활동 통계의 집계 기준</summary>
-
-- **기간:** 최근 1년 · 이미지에 표시한 집계일 기준입니다.
-- **커밋:** 공개·비공개 소유 저장소의 기본 브랜치에서 계정에 연결된 작성 커밋을 집계하고, 같은 커밋 ID는 중복 제거합니다.
-- **PR:** 같은 기간 계정으로 생성한 PR 수입니다.
-- **주별 그래프:** 집계 중인 이번 주를 제외한 최근 12주를 표시합니다.
-- **저장소:** 집계 시점에 직접 소유한 공개·비공개 저장소를 합산하고 포크는 제외합니다.
-- **언어 비중:** 프로필 저장소를 제외한 코드 바이트 기준입니다.
-- 회사 GitLab 활동은 합산하지 않으며, 비공개 저장소의 이름은 공개하지 않습니다.
-
-</details>
-
-## 💼 실무 경험
-
-### 한화생명 · Android 개발
-
-**2023.02 ~ 현재** · 대고객 서비스와 보험설계사 영업지원 앱
-
-- **Compose 디자인 시스템:** 다국어·태블릿용 공통 컴포넌트와 Catalog, 실제 텍스트 폭을 반영한 탭을 개발했습니다.
-- **앱 내 인증 흐름:** 로그인·PIN·생체인증 화면을 개발하고, 인증 SDK 연동과 화면 전환·결과 전달을 개선했습니다.
-- **AI 리뷰 자동화:** GitLab CI 기반 리뷰의 초기 구축, 모델 분기·변경 행 검증·Slack 알림을 개발했습니다.
-
-<details>
-<summary><b>실무 기술 사례 · 무엇을 어떻게 개선했는지</b></summary>
+<summary><b>한화생명 · 기술 사례와 개선 내용</b></summary>
 
 - **Compose 디자인 시스템** — 공통 컴포넌트와 Catalog를 개발하고, 다국어·태블릿에 대응했습니다.\
   탭 라벨을 글자 수 대신 `TextMeasurer`로 측정한 실제 폭에 맞춰 처리했습니다.
 - **공통 UI 안정성 개선** — `ImmutableList` 도입과 안정성 어노테이션 정리, `remember`·리스트 key·스타일 캐싱으로 컴포넌트의 상태와 반복 계산을 개선했습니다.
 - **인증 화면·SDK 연동** — Android 앱의 로그인·PIN·생체인증 화면과 등록·변경·실패 시 사용자 흐름을 개발했습니다.\
   OnePass SDK의 중복 요청, 거래 상태 일관성, 인증수단 전환 시 콜백 전달을 개선했습니다.
+- **메인 앱·네이티브 전환** — 공동인증서 등록과 보안키패드를 연동하고, 웹 기반 회원가입·인증 흐름을 Kotlin 네이티브로 전환했습니다.\
+  인증수단 마이그레이션의 미등록 단말·연속 실패·갱신 예외와 폴더블 입력 레이아웃을 개선했습니다.
 - **화면 생명주기 문제 해결** — navigation result와 콜백의 saved state 직렬화 크래시를 수정하고, 결과 전달을 메모리 상태로 분리했습니다.
 - **기기·운영 환경 대응** — 문서 촬영·DocumentScanner 경로에 Foreground Service를 연결하고, 16 KB 페이지 크기 호환성과 Remote Config 기반 WebView 최소 버전 확인을 적용했습니다.
 - **개발 도구 구축** — GitLab CI에 Claude 기반 AI 코드 리뷰를 최초 구축했습니다.\
   초기 모델 분기, diff 헤더 보존, 코멘트 대상 파일·행 검증과 Slack 알림을 개발했습니다.
+- **소크라택스** — 종합소득세 신고 시뮬레이션·절세 가이드 개발과 유지보수를 진행했습니다.
 
 </details>
 
-<details>
-<summary><b>한화생명 메인 앱·소크라택스 경험 더 보기</b></summary>
-
-- Android 앱의 로그인·PIN·생체인증·공동인증서 등록 화면과 인증 SDK 연동을 개발·운영했습니다.
-- 웹 기반 회원가입·인증 흐름을 Kotlin 네이티브로 전환했습니다.
-- 인증수단 마이그레이션 과정의 미등록 단말, 연속 실패와 갱신 예외를 처리했습니다.
-- 보안키패드를 연동하고 폴더블 기기의 입력 레이아웃을 개선했습니다.
-- 소크라택스의 종합소득세 신고 시뮬레이션·절세 가이드 개발과 유지보수를 진행했습니다.
-
-</details>
-
-<details>
-<summary><b>이전 경력 · 모비두 / 한다소프트 / 쏘피몬·투비시스</b></summary>
-
-### 모비두 · 2021.04 ~ 2023.02
-
-**소스라이브 · 소스 스튜디오**
-
-- 메인·검색 UI 개선, ExoPlayer 기반 플레이어와 SNS 간편 로그인을 개발했습니다.
-- 실시간 채팅과 구매인증, AWS Kinesis 기반 시청 지표 수집을 구현했습니다.
-- Wowza RTMP 기반 모바일 라이브 송출과 AppSync GraphQL 기반 방송 상태 제어를 개발했습니다.
-
-### 한다소프트 · 2018.12 ~ 2020.10
-
-**운세의 정석 · 영어신**
-
-- Java 기반 앱을 Kotlin으로 전환하고, mVoIP 상담·소켓 통신·인앱 및 PG 결제를 연동했습니다.
-- 사용자 단어장과 사전 데이터 연동을 개발하고, SQLite·Room의 저장·조회 처리를 개선했습니다.
-
-### 쏘피몬 · 투비시스 · 2017.12 ~ 2018.10
-
-- 실시간 시세 차트와 서버 분석 결과를 연동한 트레이딩 기능을 개발했습니다.
-- STT 기반 영어 발음 평가, 오디오 분석 결과 시각화와 챗봇 기반 학습 UI를 구현했습니다.
-
-</details>
-
-## 🚀 직접 만든 앱 · Tap Studio
+## 직접 만든 앱 · Tap Studio
 
 기획·UI/UX·클라이언트·Firebase 백엔드·결제와 광고·스토어 운영까지 직접 진행합니다.
 
-### <img src="assets/apps/weathercast-icon.jpg" width="30" height="30" alt=""> 오늘뭐입지 · WeatherCast
+<table>
+  <thead><tr><th>앱</th><th align="left">제품 · 기술 · 출시</th></tr></thead>
+  <tbody>
+    <tr>
+      <td width="64" align="center" valign="top"><img src="assets/apps/weathercast-icon.jpg" width="48" height="48" alt=""></td>
+      <td width="100%"><strong>오늘뭐입지 · WeatherCast</strong> · Android / iOS<br>날씨와 외출 시간에 맞는 옷차림 추천 앱입니다.<br><sub>Kotlin · Compose · SwiftUI · WidgetKit · Firebase AI Logic</sub><br><a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast">Google Play</a> · <a href="https://apps.apple.com/kr/app/id6758431684">App Store</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><img src="assets/apps/pixel-walker-icon.jpg" width="48" height="48" alt=""></td>
+      <td><strong>Pixel Walker RPG</strong> · Android / iOS<br>걸음 수로 캐릭터를 성장시키는 만보기 RPG입니다.<br><sub>Kotlin · Compose · SwiftUI · 걸음 센서 · Firebase · 위젯</sub><br><a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg">Google Play</a> · <a href="https://apps.apple.com/kr/app/id6760536041">App Store</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><img src="assets/apps/gemiboard-icon.png" width="48" height="48" alt=""></td>
+      <td><strong>GemiBoard</strong> · Android<br>한글 입력과 AI 문장 교정·변환을 담은 키보드입니다.<br><sub>Kotlin · Compose · InputMethodService · 한글 오토마타 · Gemini</sub><br><a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard">Google Play</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><img src="assets/apps/pop-quiz-daily-icon.jpg" width="48" height="48" alt=""></td>
+      <td><strong>Pop Quiz Daily</strong> · Android / iOS<br>매일 풀어보는 상식 퀴즈 앱입니다.<br><sub>Kotlin Multiplatform · Compose Multiplatform · Room · Koin · Firebase</sub><br><a href="https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily">Google Play</a> · <a href="https://apps.apple.com/kr/app/id6759132499">App Store</a></td>
+    </tr>
+  </tbody>
+</table>
 
-날씨와 외출 시간에 맞는 **옷차림 추천 앱** · Android / iOS
+<details>
+<summary><b>대표 앱의 개발·운영 사례</b></summary>
 
-- **개발·운영:** 캐시 우선 날씨 표시, 대기질 재시도와 측정 시각 기반 이전 값 표시를 개선했습니다.\
+- **오늘뭐입지** — 캐시 우선 날씨 표시, 대기질 재시도와 측정 시각 기반 이전 값 표시를 개선했습니다.\
   위젯 이미지 복구를 Android의 `WorkManager`, iOS의 백그라운드 전송으로 보완했습니다.
-- **기술:** Kotlin · Compose · SwiftUI · WidgetKit · Firebase AI Logic
-- **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast) · [App Store](https://apps.apple.com/kr/app/id6758431684)
-
-### <img src="assets/apps/pixel-walker-icon.jpg" width="30" height="30" alt=""> Pixel Walker RPG
-
-걸음 수로 캐릭터를 성장시키는 **만보기 RPG** · Android / iOS
-
-- **개발·운영:** 걸음 수를 게임 진행과 일일 퀘스트에 연결했습니다.\
+- **Pixel Walker RPG** — 걸음 수를 게임 진행과 일일 퀘스트에 연결했습니다.\
   iOS의 백그라운드 걸음 수 반영 누락과 퀘스트 중복 집계를 수정했습니다.
-- **기술:** Kotlin · Compose · SwiftUI · 걸음 센서 · Firebase · 위젯
-- **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg) · [App Store](https://apps.apple.com/kr/app/id6760536041)
-
-### <img src="assets/apps/gemiboard-icon.png" width="30" height="30" alt=""> GemiBoard
-
-한글 입력과 **AI 문장 교정·변환**을 담은 키보드 · Android
-
-- **개발·운영:** `InputMethodService` 기반 키보드와 한글 오토마타를 구현했습니다.\
+- **GemiBoard** — `InputMethodService` 기반 키보드와 한글 오토마타를 구현했습니다.\
   천지인 복합 모음·연속 탭·타임아웃 처리를 입력 시퀀스 테스트로 확인할 수 있게 구성했습니다.
-- **기술:** Kotlin · Compose · InputMethodService · 한글 오토마타 · Gemini
-- **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard)
-
-### <img src="assets/apps/pop-quiz-daily-icon.jpg" width="30" height="30" alt=""> Pop Quiz Daily
-
-매일 풀어보는 **상식 퀴즈 앱** · Android / iOS
-
-- **개발·운영:** `commonMain`에서 화면·상태·데이터 계층을 공유하고, 플랫폼별 기능을 분리했습니다.\
+- **Pop Quiz Daily** — `commonMain`에서 화면·상태·데이터 계층을 공유하고, 플랫폼별 기능을 분리했습니다.\
   Room 기반 기록과 GitLive Firebase, Koin을 공통 코드에 구성했습니다.
-- **기술:** Kotlin Multiplatform · Compose Multiplatform · Room · Koin · Firebase
-- **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) · [App Store](https://apps.apple.com/kr/app/id6759132499)
+
+</details>
 
 <details>
 <summary><b>실제 앱 화면 · 오늘뭐입지 / Pixel Walker RPG</b></summary>
@@ -156,7 +124,7 @@
 | **Cocktail Wiki** | 칵테일 레시피, AI 대화와 Room 즐겨찾기 | [Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki) |
 | **Pick It** | 메뉴 선택 룰렛, 히스토리와 Google Drive 백업·복원 | [Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit) |
 
-## 📦 오픈소스·개발 도구
+## 오픈소스 · 개발 도구
 
 | 프로젝트 | 내용 |
 | :--- | :--- |
@@ -164,7 +132,7 @@
 | [**HoonyDisk**](https://github.com/welcome2c/HoonyDisk) | SwiftUI 기반 macOS 저장 공간 분석·정리 도구 |
 | [**LottieProgressDialog**](https://github.com/welcome2c/LottieProgressDialog) | Lottie 애니메이션을 활용한 Android Dialog 라이브러리 |
 
-## 🛠 기술 스택
+## 기술 스택
 
 | 분야 | 사용하는 기술 |
 | :--- | :--- |

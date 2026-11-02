@@ -51,14 +51,15 @@ def render(snapshot, theme, mobile):
     p = PALETTES[theme]
     assert contrast(p["text"], p["bg"]) >= 4.5
     assert contrast(p["muted"], p["bg"]) >= 4.5
-    width, height = (640, 826) if mobile else (920, 526)
-    padding = 30 if mobile else 34
+    width, height = (640, 444) if mobile else (760, 260)
+    padding = 24
     labels = ["작성 커밋", "생성 PR", "소유 저장소"]
     values = [snapshot["commits"], snapshot["pull_requests"], snapshot["owned_repositories"]]
-    hints = ["최근 1년" if mobile else "최근 1년 · 기본 브랜치", "최근 1년", "포크 제외"]
+    hints = ["최근 1년", "최근 1년", "포크 제외"]
     date = datetime.fromisoformat(snapshot["generated_at"]).astimezone(ZoneInfo("Asia/Seoul")).strftime("%Y.%m.%d")
-    top = snapshot["languages"][:4]
-    other = sum(item["bytes"] for item in snapshot["languages"][4:])
+    visible_languages = 3 if mobile else 4
+    top = snapshot["languages"][:visible_languages]
+    other = sum(item["bytes"] for item in snapshot["languages"][visible_languages:])
     languages = list(top) + ([{"name": "Other", "bytes": other, "color": "#8795a8"}] if other else [])
     total_bytes = sum(item["bytes"] for item in languages)
     weeks = snapshot["weeks"][:-1][-12:]
@@ -71,16 +72,17 @@ def render(snapshot, theme, mobile):
     cell = (width - 2 * padding) / 3
     for index, (label, value, hint) in enumerate(zip(labels, values, hints)):
         x = padding + index * cell
-        body.append(text(x, 46 if mobile else 39, label, 26 if mobile else 17, p["muted"], 500))
-        body.append(text(x - 2, 114 if mobile else 98, f"{value:,}", 62 if mobile else 52, p["text"], 650))
-        body.append(text(x, 150 if mobile else 126, hint, 25 if mobile else 14, p["muted"]))
-    divider = 177 if mobile else 153
+        body.append(text(x, 32 if mobile else 26, label, 24 if mobile else 14, p["muted"], 500))
+        body.append(text(x - 1, 80 if mobile else 60, f"{value:,}", 44 if mobile else 32, p["text"], 600))
+        body.append(text(x, 112 if mobile else 81, hint, 22 if mobile else 12, p["muted"]))
+    divider = 132 if mobile else 96
     body.append(line(padding, divider, width - padding, divider, p["line"]))
-    heading_y = 225 if mobile else 190
-    body.append(text(padding, heading_y, "주별 커밋", 28 if mobile else 19, p["text"], 600))
-    body.append(text(width - padding, heading_y, "최근 12주 · 완료된 주 기준", 24 if mobile else 14, p["muted"], anchor="end"))
-    left, right = (66, width - padding - 4) if mobile else (58, width - padding - 4)
-    top_y, bottom = (270, 445) if mobile else (220, 350)
+    heading_y = 169 if mobile else 121
+    body.append(text(padding, heading_y, "주별 커밋", 26 if mobile else 15, p["text"], 600))
+    chart_right = width - padding if mobile else 433
+    body.append(text(chart_right, heading_y, "완료된 최근 12주", 22 if mobile else 12, p["muted"], anchor="end"))
+    left, right = (58, chart_right - 4) if mobile else (42, chart_right)
+    top_y, bottom = (198, 264) if mobile else (144, 206)
     maximum = max([week["count"] for week in weeks] + [1])
     step = max(1, math.ceil(maximum / 4 / 5) * 5)
     ceiling = max(step, math.ceil(maximum / step) * step)
@@ -88,7 +90,7 @@ def render(snapshot, theme, mobile):
     for value in ticks:
         y = bottom - value / ceiling * (bottom - top_y)
         body.append(line(left, y, right, y, p["line"]))
-        body.append(text(left - 12, y + (7 if mobile else 5), value, 24 if mobile else 13, p["muted"], anchor="end"))
+        body.append(text(left - 10, y + (7 if mobile else 4), value, 22 if mobile else 12, p["muted"], anchor="end"))
     points = []
     for index, week in enumerate(weeks):
         x = left + index / max(1, len(weeks) - 1) * (right - left)
@@ -97,36 +99,39 @@ def render(snapshot, theme, mobile):
     path = "M" + "L".join(f"{x:.2f} {y:.2f}" for x, y in points)
     area = path + f"L{right:g} {bottom:g}L{left:g} {bottom:g}Z"
     body.append(f'<path d="{area}" fill="{p["accent"]}" fill-opacity=".12"/>')
-    body.append(f'<path d="{path}" fill="none" stroke="{p["accent"]}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>')
+    body.append(f'<path d="{path}" fill="none" stroke="{p["accent"]}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>')
     for (x, y), week in zip(points, weeks):
-        body.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3.5" fill="{p["accent"]}"><title>{week["date"]} 주: {week["count"]}커밋</title></circle>')
+        body.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.5" fill="{p["accent"]}"><title>{week["date"]} 주: {week["count"]}커밋</title></circle>')
     for index in (0, len(weeks) // 2, len(weeks) - 1):
         x = points[index][0]
         label = weeks[index]["date"][5:].replace("-", ".")
         anchor = "start" if index == 0 else "end" if index == len(weeks) - 1 else "middle"
-        body.append(text(x, bottom + (35 if mobile else 25), label, 24 if mobile else 13, p["muted"], anchor=anchor))
-    lang_y = 539 if mobile else 416
-    body.append(text(padding, lang_y, "저장소 언어 비중", 28 if mobile else 19, p["text"], 600))
-    bar_y = lang_y + (24 if mobile else 19)
-    bar_width = width - padding * 2
-    cursor = padding
+        body.append(text(x, bottom + (28 if mobile else 20), label, 22 if mobile else 12, p["muted"], anchor=anchor))
+    lang_left = padding if mobile else 473
+    lang_y = 330 if mobile else 121
+    body.append(text(lang_left, lang_y, "언어 비중", 24 if mobile else 15, p["text"], 600))
+    if mobile:
+        body.append(text(width - padding, lang_y, "코드 바이트 기준", 20, p["muted"], anchor="end"))
+    bar_y = 345 if mobile else 136
+    bar_width = width - padding - lang_left
+    cursor = lang_left
     for item in languages:
         segment = item["bytes"] / total_bytes * bar_width if total_bytes else 0
         color = mark_color(item["color"], p["bg"])
-        body.append(f'<rect x="{cursor:.2f}" y="{bar_y}" width="{segment:.2f}" height="{16 if mobile else 12}" fill="{color}"/>')
+        body.append(f'<rect x="{cursor:.2f}" y="{bar_y}" width="{segment:.2f}" height="{10 if mobile else 8}" fill="{color}"/>')
         cursor += segment
     for index, item in enumerate(languages):
-        x = padding + (index % 2) * 300 if mobile else padding + index * 171
-        y = bar_y + 57 + (index // 2) * 43 if mobile else bar_y + 39
+        x = lang_left + (index % 2) * (300 if mobile else 138)
+        y = (380 if mobile else 172) + (index // 2) * (28 if mobile else 25)
         color = mark_color(item["color"], p["bg"])
         percent = item["bytes"] / total_bytes * 100 if total_bytes else 0
-        body.append(f'<circle cx="{x + 4}" cy="{y - 7}" r="4.5" fill="{color}"/>')
-        body.append(text(x + 17, y, f'{item["name"]} {percent:.1f}%', 24 if mobile else 14, p["text"]))
-    body.append(text(padding, height - (48 if mobile else 20), f"{date} 집계 · 공개·비공개 합산", 24 if mobile else 13, p["muted"]))
+        body.append(f'<circle cx="{x + 3}" cy="{y - (7 if mobile else 4)}" r="{4 if mobile else 3}" fill="{color}"/>')
+        body.append(text(x + (16 if mobile else 12), y, f'{item["name"]} {percent:.1f}%', 22 if mobile else 12, p["text"]))
     if mobile:
-        body.append(text(padding, height - 17, "코드 바이트 기준 · 회사 GitLab 제외", 23, p["muted"]))
+        body.append(text(padding, height - 11, f"{date} · 공개·비공개 합산 · GitLab 제외", 20, p["muted"]))
     else:
-        body.append(text(width - padding, height - 20, "코드 바이트 기준 · 회사 GitLab 제외", 13, p["muted"], anchor="end"))
+        body.append(text(padding, height - 12, f"{date} 집계 · 공개·비공개 합산", 12, p["muted"]))
+        body.append(text(width - padding, height - 12, "코드 바이트 기준 · 회사 GitLab 제외", 12, p["muted"], anchor="end"))
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
            f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">'
            f'<title id="title">DevHoony의 GitHub 활동</title>'

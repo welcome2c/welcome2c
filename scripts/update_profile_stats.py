@@ -141,7 +141,7 @@ if __name__ == "__main__":
         alt = (f'최근 1년 GitHub 활동: 작성 커밋 {snapshot["commits"]:,}개, '
                f'생성 PR {snapshot["pull_requests"]:,}개, 소유 저장소 {snapshot["owned_repositories"]:,}개. '
                '최근 12주 커밋 그래프와 저장소 언어 비중.')
-        pattern = r'(<img src="assets/activity/dashboard-light.svg" width="100%" alt=")[^"]*(">)'
+        pattern = r'(<img src="assets/activity/dashboard-light.svg" width="[^"]+" alt=")[^"]*(">)'
         content, replacements = re.subn(pattern, lambda m: m[1] + alt + m[2], readme.read_text(), count=1)
         if replacements != 1:
             raise RuntimeError("Activity image markup changed; update its accessible description manually.")
