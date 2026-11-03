@@ -16,7 +16,7 @@
 📬 **Contact** · [welcome2c@naver.com](mailto:welcome2c@naver.com)
 
 <!-- activity-stats:start -->
-**GitHub 활동** · 최근 1년 작성 커밋 **143** · 생성 PR **75** · 소유 저장소 **32**\
+**GitHub 활동** · 전체 기간 작성 커밋 **233** · 생성 PR **76** · 소유 저장소 **32**\
 <sub>2026.11.03 집계 · 공개·비공개 합산 · 회사 GitLab 제외</sub>
 <!-- activity-stats:end -->
 

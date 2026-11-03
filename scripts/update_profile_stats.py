@@ -1,4 +1,4 @@
-"""Collect owner activity with gh; publish aggregate statistics, never private repo names.
+"""Collect all-time owner activity with gh; publish aggregate statistics, never private repo names.
 
 Run: python3 scripts/update_profile_stats.py
 Requires an authenticated GitHub CLI with read access to the owner's repositories.
@@ -35,23 +35,21 @@ def graphql(gh, query, **variables):
 
 def collect(gh):
     end = datetime.now(timezone.utc).replace(microsecond=0)
-    start = end - timedelta(days=365)
     first = graphql(gh, '''query($login:String!,$q:String!){
       viewer{login} user(login:$login){id}
       search(type:ISSUE,query:$q,first:1){issueCount}
-    }''', login=OWNER, q="author:" + OWNER + " is:pr created:" +
-                    start.strftime("%Y-%m-%dT%H:%M:%SZ") + ".." +
+    }''', login=OWNER, q="author:" + OWNER + " is:pr created:<=" +
                     end.strftime("%Y-%m-%dT%H:%M:%SZ"))
     if first["viewer"]["login"].lower() != OWNER:
         raise RuntimeError("Use the profile owner's gh account to collect complete statistics.")
     author = first["user"]["id"]
-    query = '''query($login:String!,$author:ID!,$from:GitTimestamp!,$to:GitTimestamp!,$after:String){
+    query = '''query($login:String!,$author:ID!,$to:GitTimestamp!,$after:String){
       user(login:$login){repositories(first:100,after:$after,ownerAffiliations:OWNER,isFork:false){
         pageInfo{hasNextPage endCursor}
         nodes{nameWithOwner isPrivate stargazerCount
           languages(first:100,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}
           defaultBranchRef{name target{... on Commit{
-            history(first:100,author:{id:$author},since:$from,until:$to){
+            history(first:100,author:{id:$author},until:$to){
               totalCount pageInfo{hasNextPage endCursor} nodes{oid committedDate}
             }
           }}}
@@ -65,7 +63,7 @@ def collect(gh):
     after = None
     while True:
         data = graphql(gh, query, login=OWNER, author=author,
-                       **{"from": start.isoformat(), "to": end.isoformat(), "after": after})
+                       **{"to": end.isoformat(), "after": after})
         connection = data["user"]["repositories"]
         for repo in connection["nodes"]:
             repository_count += 1
@@ -88,20 +86,21 @@ def collect(gh):
                     break
                 name = repo["nameWithOwner"].split("/", 1)[1]
                 history = graphql(gh, '''query($owner:String!,$name:String!,$branch:String!,$author:ID!,
-                    $from:GitTimestamp!,$to:GitTimestamp!,$after:String!){
+                    $to:GitTimestamp!,$after:String!){
                   repository(owner:$owner,name:$name){ref(qualifiedName:$branch){target{... on Commit{
-                    history(first:100,after:$after,author:{id:$author},since:$from,until:$to){
+                    history(first:100,after:$after,author:{id:$author},until:$to){
                       pageInfo{hasNextPage endCursor} nodes{oid committedDate}
                     }
                   }}}}
                 }''', owner=OWNER, name=name, branch="refs/heads/" + branch["name"],
-                    author=author, **{"from": start.isoformat(), "to": end.isoformat(),
+                    author=author, **{"to": end.isoformat(),
                     "after": history["pageInfo"]["endCursor"]})["repository"]["ref"]["target"]["history"]
         if not connection["pageInfo"]["hasNextPage"]:
             break
         after = connection["pageInfo"]["endCursor"]
     days = Counter(value[:10] for value in commits.values())
-    first_monday = start.date() - timedelta(days=start.weekday())
+    first_day = datetime.fromisoformat(min(days)).date() if days else end.date()
+    first_monday = first_day - timedelta(days=first_day.weekday())
     last_monday = end.date() - timedelta(days=end.weekday())
     weeks = []
     cursor = first_monday
@@ -111,11 +110,11 @@ def collect(gh):
         cursor += timedelta(days=7)
     assert sum(week["count"] for week in weeks) == len(commits)
     return {
-        "schema_version": 1, "login": OWNER, "generated_at": end.isoformat(),
-        "period": {"from": start.isoformat(), "to": end.isoformat()},
+        "schema_version": 2, "login": OWNER, "generated_at": end.isoformat(),
+        "period": {"type": "all_time", "from": None, "to": end.isoformat()},
         "scope": {
-            "commits": "Unique commits authored by the account in owned non-fork default branches; public and private.",
-            "pull_requests": "Pull requests created by the account across accessible repositories in the same period.",
+            "commits": "All-time unique commits authored by the account in owned non-fork default branches; public and private.",
+            "pull_requests": "All-time pull requests created by the account across accessible repositories, through the snapshot cutoff.",
             "languages": "Owned non-fork repository code bytes, excluding the profile repository; public and private.",
             "company_gitlab_included": False,
         },
@@ -138,7 +137,7 @@ if __name__ == "__main__":
         readme = ROOT / "README.md"
         date = datetime.fromisoformat(snapshot["generated_at"]).astimezone(ZoneInfo("Asia/Seoul")).strftime("%Y.%m.%d")
         activity = (f'<!-- activity-stats:start -->\n'
-                    f'**GitHub 활동** · 최근 1년 작성 커밋 **{snapshot["commits"]:,}** · '
+                    f'**GitHub 활동** · 전체 기간 작성 커밋 **{snapshot["commits"]:,}** · '
                     f'생성 PR **{snapshot["pull_requests"]:,}** · '
                     f'소유 저장소 **{snapshot["owned_repositories"]:,}**' + '\\\n' +
                     f'<sub>{date} 집계 · 공개·비공개 합산 · 회사 GitLab 제외</sub>\n'

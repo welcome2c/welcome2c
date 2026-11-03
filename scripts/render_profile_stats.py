@@ -55,7 +55,8 @@ def render(snapshot, theme, mobile):
     padding = 24
     labels = ["작성 커밋", "생성 PR", "소유 저장소"]
     values = [snapshot["commits"], snapshot["pull_requests"], snapshot["owned_repositories"]]
-    hints = ["최근 1년", "최근 1년", "포크 제외"]
+    period_label = "전체 기간" if snapshot["period"].get("type") == "all_time" else "최근 1년"
+    hints = [period_label, period_label, "포크 제외"]
     date = datetime.fromisoformat(snapshot["generated_at"]).astimezone(ZoneInfo("Asia/Seoul")).strftime("%Y.%m.%d")
     visible_languages = 3 if mobile else 4
     top = snapshot["languages"][:visible_languages]
@@ -64,7 +65,7 @@ def render(snapshot, theme, mobile):
     total_bytes = sum(item["bytes"] for item in languages)
     weeks = snapshot["weeks"][:-1][-12:]
     descriptions = "; ".join(labels[i] + " " + str(values[i]) for i in range(3))
-    description = (f'{date} 집계. 최근 1년 GitHub 활동. {descriptions}. '
+    description = (f'{date} 집계. {period_label} GitHub 활동. {descriptions}. '
                    '공개·비공개 소유 저장소를 합산하고 포크와 회사 GitLab은 제외합니다. '
                    '계정에 연결된 작성 커밋을 기본 브랜치에서 중복 제거합니다. '
                    '그래프는 완료된 최근 12주의 커밋이며 언어 비중은 코드 바이트 기준입니다.')
