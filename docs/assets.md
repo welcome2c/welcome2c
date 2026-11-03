@@ -20,17 +20,20 @@ Python 표준 라이브러리만 사용합니다. 앱 아이콘은 SVG 안에 �
 
 ## 프로필의 스토어 스크린샷
 
-2026-11-03에 공개 App Store·Google Play 이미지 CDN에서 앱별 스크린샷 2장씩, 총 18장을 가져왔습니다.
-앱 설명 아래의 접힌 드롭다운에서 볼 수 있으며 이미지 비율은 원본을 유지합니다.
-개발 중인 앱이나 에뮬레이터의 화면은 사용하지 않았습니다.
-출처 URL·파일 크기·SHA-256은 [이미지 출처 목록](../assets/apps/store-screenshots.json)에 기록했습니다.
+2026-11-03에 9개 앱의 Google Play·App Store 갤러리 12개를 확인하고, 등록된 스크린샷 70장을 모두 가져왔습니다.
+시작 화면을 포함해 스토어에 표시된 순서를 유지하며, 장수 제한이나 선별은 하지 않습니다.
+앱 설명 아래의 접힌 드롭다운에서 스토어별로 구분해 볼 수 있으며 이미지 내용과 비율은 변경하지 않았습니다.
+출처 URL·원래 순번·파일 크기·SHA-256은 [이미지 출처 목록](../assets/apps/store-screenshots.json)에 기록했습니다.
 
-- [오늘뭐입지 · WeatherCast — App Store](https://apps.apple.com/kr/app/id6758431684)
-- [Pixel Walker RPG — App Store](https://apps.apple.com/kr/app/id6760536041)
-- [Pop Quiz Daily — App Store](https://apps.apple.com/kr/app/id6759132499)
-- [GemiBoard — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard)
-- [Astro AI — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai)
-- [Voda — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.voda)
-- [멍냥이는 힐링이야 · Meow Bow — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow)
-- [칵테일 위키 · Cocktail Wiki — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki)
-- [PickIt · 픽잇 — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit)
+- **오늘뭐입지 · WeatherCast** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast) 7장 · [App Store](https://apps.apple.com/kr/app/id6758431684) 5장
+- **Pixel Walker RPG** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg) 5장 · [App Store](https://apps.apple.com/kr/app/id6760536041) 4장
+- **Pop Quiz Daily · 팝 퀴즈 데일리** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) 6장 · [App Store](https://apps.apple.com/kr/app/id6759132499) 6장
+- **GemiBoard · 제미보드** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard) 8장
+- **Astro AI** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai) 8장
+- **Voda** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.voda) 4장
+- **멍냥이는 힐링이야 · Meow Bow** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow) 6장
+- **칵테일 위키 · Cocktail Wiki** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki) 5장
+- **PickIt · 픽잇** — [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit) 6장
+
+Astro AI는 스토어 직접 조회가 404를 반환해 공개 스토어 페이지 기록의 전체 이미지 목록 8장을 사용했습니다.
+나머지 갤러리는 Google Play 공개 페이지 또는 App Store 공개 조회 API의 전체 목록을 사용했습니다.

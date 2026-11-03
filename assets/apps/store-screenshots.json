@@ -1,201 +1,791 @@
 {
-  "retrieved_at": "2026-11-03T00:34:28+00:00",
+  "schema_version": 2,
+  "retrieved_at": "2026-11-03T00:50:21+00:00",
+  "gallery_policy": "Every listed screenshot in original store order; no selection or count limit.",
   "apps": [
     {
       "slug": "weathercast",
       "name": "오늘뭐입지 · WeatherCast",
-      "store": "App Store",
-      "store_url": "https://apps.apple.com/kr/app/id6758431684",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/weathercast-store-1.jpg",
-          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/07/fb/cf07fbf0-6bb8-90bb-9825-61cd5e8b941d/01.png/720x1560bb.jpg",
-          "sha256": "2665a22b914fb17fd7dcafe21df272286274eb6b6b09c8215892ea9978f344a9",
-          "bytes": 129439,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 7,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/weathercast-google-play-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/7dmV2MiZh3tpREvv_LdZu_FoJQnnf0II_28ETcOBfzDYfANOAVvp3CwrOmKo5l2k6u0d4qI6iTuUkamoHKFkXQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/7dmV2MiZh3tpREvv_LdZu_FoJQnnf0II_28ETcOBfzDYfANOAVvp3CwrOmKo5l2k6u0d4qI6iTuUkamoHKFkXQ=w720",
+              "sha256": "027f0c22f1f7e0e81454a501c0a8f410d19e3f883b7028aa2e81ded5124c942a",
+              "bytes": 181810,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/weathercast-google-play-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/7T83j3SD5iOatFG7fLSwBAopv_v6w5P2gtwQ1YQ74qnFWUL0-9UsPxPLy0f8_PSwJrsM75QQewWEj4W9Do-67g=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/7T83j3SD5iOatFG7fLSwBAopv_v6w5P2gtwQ1YQ74qnFWUL0-9UsPxPLy0f8_PSwJrsM75QQewWEj4W9Do-67g=w720",
+              "sha256": "0ff3271f6c70776103ba0e9f31dbb7797d6ca9646e989808315fb11bfec47ae1",
+              "bytes": 176064,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/weathercast-google-play-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/1FGzmMe7olyOn0EpHg_L32TTjAtDaLCtjLNqG68YQOxQpwjiZx8bAIUlfVvi90Ikxv_4SyMRHWKwZrPvpItcqw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/1FGzmMe7olyOn0EpHg_L32TTjAtDaLCtjLNqG68YQOxQpwjiZx8bAIUlfVvi90Ikxv_4SyMRHWKwZrPvpItcqw=w720",
+              "sha256": "d2a39a956ed1ec0500fa98cbdd05578152a29b39ff0968aab77b6a1b7ebb0e29",
+              "bytes": 122346,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/weathercast-google-play-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/HuKrFkdqEI7qHfI__e7xmxM_HGkH-vWIMbn8NeSxZGLJgmwzm13QFNrLuOnvm3VcVxVPNBiiGsTeAEgtP0F7=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/HuKrFkdqEI7qHfI__e7xmxM_HGkH-vWIMbn8NeSxZGLJgmwzm13QFNrLuOnvm3VcVxVPNBiiGsTeAEgtP0F7=w720",
+              "sha256": "d287325254c3b2ba720e1ccf01776a9c4a01df61de58aa32f731e68947dc2000",
+              "bytes": 185568,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/weathercast-google-play-5.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/DuI62zwvTEsKOdwhSQ-6t4U6-zMgLeICjh9-3In76ka7ef11sDxEv8vk9CAjjldmFwW9R21NOKh0m2jOReY=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/DuI62zwvTEsKOdwhSQ-6t4U6-zMgLeICjh9-3In76ka7ef11sDxEv8vk9CAjjldmFwW9R21NOKh0m2jOReY=w720",
+              "sha256": "39784619280c4a48b5f45e6b39ce74b11440f3743d53f9de28cb7634d430f927",
+              "bytes": 137529,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/weathercast-google-play-6.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/ui5oZfejMdg7gs7giVrQqZaI_BQkgOxj-q1VDcMqvmBAV3rYKfgpW3Xa77m1lY_YGh6tbSr15qh-LoP1tX1ZPX0=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/ui5oZfejMdg7gs7giVrQqZaI_BQkgOxj-q1VDcMqvmBAV3rYKfgpW3Xa77m1lY_YGh6tbSr15qh-LoP1tX1ZPX0=w720",
+              "sha256": "33ac40b821ed44a2568e8706754fe9b3dd0d78be9b7db35c401da32811415e67",
+              "bytes": 181236,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 7,
+              "path": "assets/apps/weathercast-google-play-7.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/zqm1lW9cwtTbAqAFUMfCjoPc6-mcGHt_HEKH9xzLaz905_nmNFmSB0-srW_AOAeNZA0r2p3Cq29OHBqLHTZ5Xw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/zqm1lW9cwtTbAqAFUMfCjoPc6-mcGHt_HEKH9xzLaz905_nmNFmSB0-srW_AOAeNZA0r2p3Cq29OHBqLHTZ5Xw=w720",
+              "sha256": "fa2c8e7c9e3de49fc05d9bb3e54f1494da4e14540a7f4ad73e9af95dce5f8e5e",
+              "bytes": 183977,
+              "mime_type": "image/png"
+            }
+          ]
         },
         {
-          "path": "assets/apps/weathercast-store-2.jpg",
-          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/88/c1/2e88c1dc-f708-4b6c-1a1f-2fbbc114ee81/02.png/720x1560bb.jpg",
-          "sha256": "acb3133d2ebd4630adf4b6f6976676b8fa636b349c551face8578c12772581bc",
-          "bytes": 112905,
-          "mime_type": "image/jpeg"
+          "store": "App Store",
+          "device": "iPhone",
+          "store_url": "https://apps.apple.com/kr/app/id6758431684",
+          "listing_status": "live_public_lookup",
+          "listing_source_url": "https://itunes.apple.com/lookup?id=6758431684&country=kr",
+          "listed_screenshot_count": 5,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/weathercast-store-1.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/07/fb/cf07fbf0-6bb8-90bb-9825-61cd5e8b941d/01.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/07/fb/cf07fbf0-6bb8-90bb-9825-61cd5e8b941d/01.png/720x1560bb.jpg",
+              "sha256": "2665a22b914fb17fd7dcafe21df272286274eb6b6b09c8215892ea9978f344a9",
+              "bytes": 129439,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/weathercast-store-2.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/88/c1/2e88c1dc-f708-4b6c-1a1f-2fbbc114ee81/02.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/88/c1/2e88c1dc-f708-4b6c-1a1f-2fbbc114ee81/02.png/720x1560bb.jpg",
+              "sha256": "acb3133d2ebd4630adf4b6f6976676b8fa636b349c551face8578c12772581bc",
+              "bytes": 112905,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/weathercast-store-3.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/6e/b1/ad6eb167-5512-9e54-a400-b62aeb64267a/03.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/6e/b1/ad6eb167-5512-9e54-a400-b62aeb64267a/03.png/720x1560bb.jpg",
+              "sha256": "06a0bcd6552069c7cfa9f13d5367f25c7ffea731f5a5002672e35d6bb2137013",
+              "bytes": 92748,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/weathercast-store-4.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/22/e9/ce22e9ff-f4c2-598b-71d7-076e2a134a1d/04.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/22/e9/ce22e9ff-f4c2-598b-71d7-076e2a134a1d/04.png/720x1560bb.jpg",
+              "sha256": "82cd45dd8bcf0e7789943db21d5219cc793034d17133652608b72c2d1241c52d",
+              "bytes": 112163,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/weathercast-store-5.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/f1/b6/8bf1b671-4a9e-cd69-e7ad-a3274b57533e/05.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/f1/b6/8bf1b671-4a9e-cd69-e7ad-a3274b57533e/05.png/720x1560bb.jpg",
+              "sha256": "8652bbbad506c8a22879f8b0eafbc329d86f04b7e7d866de974ededd1d1b70ab",
+              "bytes": 128525,
+              "mime_type": "image/jpeg"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "pixel-walker",
       "name": "Pixel Walker RPG",
-      "store": "App Store",
-      "store_url": "https://apps.apple.com/kr/app/id6760536041",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/pixel-walker-store-1.jpg",
-          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/59/4f/b7594f66-ae68-63e1-3c70-225bc2614624/01.png/720x1560bb.jpg",
-          "sha256": "4c888bef05977432680def15126bdb841beb8ce6a6abd41b8df4eda5aa9bbfbf",
-          "bytes": 150388,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 5,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/pixel-walker-google-play-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/USHkL9nbD2Urfq1IxnTrKXGxStE9vZSId8dbyv28YXbrDoDFeXahqWQ_jwWRC7-2cDHpCz-8y2SzUCxyiyh8zw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/USHkL9nbD2Urfq1IxnTrKXGxStE9vZSId8dbyv28YXbrDoDFeXahqWQ_jwWRC7-2cDHpCz-8y2SzUCxyiyh8zw=w720",
+              "sha256": "e15b57f3f129f6f9b7fbfcc3b1b92e82622e0e50568854baedf20a020adcb6d4",
+              "bytes": 261679,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/pixel-walker-google-play-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/gzhS-_pg1h71N2mCVAlXx3y8DYsLOH4erR6MbZ4VxOXW-la0yUyKjxv6GyE-USAKbe4Ub6uBV0b6KDK5mH_19A=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/gzhS-_pg1h71N2mCVAlXx3y8DYsLOH4erR6MbZ4VxOXW-la0yUyKjxv6GyE-USAKbe4Ub6uBV0b6KDK5mH_19A=w720",
+              "sha256": "54528a83a54031848b8825f652a08d0b460f8b98f364a4f726130a50eca92a12",
+              "bytes": 194018,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/pixel-walker-google-play-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/Zpb22vaE_koIrDstog3WOEe5nGIgPBVxtoz8rSRQKj3dquLOp7DpVRld6nWWysonDyf5q6tF9wp7359zbWHg=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/Zpb22vaE_koIrDstog3WOEe5nGIgPBVxtoz8rSRQKj3dquLOp7DpVRld6nWWysonDyf5q6tF9wp7359zbWHg=w720",
+              "sha256": "99d8b7102c9f6a7173a526a7ddde4c9a9945630018d95d2a0ba1ae801ef567bf",
+              "bytes": 167040,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/pixel-walker-google-play-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/nR-D683V0M1HTeIuxL5XFEa5nhQuGTYkPIV8uEMbziEQCTDEaLuLZbSV8Zd5oOvbGw390eylxF0fNX7ZeIPw6A=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/nR-D683V0M1HTeIuxL5XFEa5nhQuGTYkPIV8uEMbziEQCTDEaLuLZbSV8Zd5oOvbGw390eylxF0fNX7ZeIPw6A=w720",
+              "sha256": "eccfe3a6f27dc16c3e48b1d97b5b7fa3ac78bad9af60a011eed5b4ca5e003804",
+              "bytes": 141789,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/pixel-walker-google-play-5.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/Ydjry9XKN-OkbZzqMH7wlWcqeWevCnL7EeFsiXcQfL2eKvXBKBOlHfCJ67A5Dvkyu0eoMpTLpvFdrDUrCDbk=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/Ydjry9XKN-OkbZzqMH7wlWcqeWevCnL7EeFsiXcQfL2eKvXBKBOlHfCJ67A5Dvkyu0eoMpTLpvFdrDUrCDbk=w720",
+              "sha256": "cc9e43c847febc2856b13c94ed56ff7fd76514cc7d389de7dc17fd402d971dfb",
+              "bytes": 233215,
+              "mime_type": "image/png"
+            }
+          ]
         },
         {
-          "path": "assets/apps/pixel-walker-store-2.jpg",
-          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/6e/55/fc6e55ab-8991-2c93-0c04-4f8f69202e30/02.png/720x1560bb.jpg",
-          "sha256": "af7dc622a82e1dc67c48ef39690ff3dfc2ca3b98b48eccf162bb213dfbae8448",
-          "bytes": 117825,
-          "mime_type": "image/jpeg"
+          "store": "App Store",
+          "device": "iPhone",
+          "store_url": "https://apps.apple.com/kr/app/id6760536041",
+          "listing_status": "live_public_lookup",
+          "listing_source_url": "https://itunes.apple.com/lookup?id=6760536041&country=kr",
+          "listed_screenshot_count": 4,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/pixel-walker-store-1.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/59/4f/b7594f66-ae68-63e1-3c70-225bc2614624/01.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/59/4f/b7594f66-ae68-63e1-3c70-225bc2614624/01.png/720x1560bb.jpg",
+              "sha256": "4c888bef05977432680def15126bdb841beb8ce6a6abd41b8df4eda5aa9bbfbf",
+              "bytes": 150388,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/pixel-walker-store-2.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/6e/55/fc6e55ab-8991-2c93-0c04-4f8f69202e30/02.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/6e/55/fc6e55ab-8991-2c93-0c04-4f8f69202e30/02.png/720x1560bb.jpg",
+              "sha256": "af7dc622a82e1dc67c48ef39690ff3dfc2ca3b98b48eccf162bb213dfbae8448",
+              "bytes": 117825,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/pixel-walker-store-3.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/ea/bf/73eabfb6-65c3-bc25-173f-1fa7d46b408e/03.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/ea/bf/73eabfb6-65c3-bc25-173f-1fa7d46b408e/03.png/720x1560bb.jpg",
+              "sha256": "4254bb288e8462a64c17049058f1fafd95faab42d479854d6325e3c5e22497ce",
+              "bytes": 133698,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/pixel-walker-store-4.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/aa/c2/55aac2b2-c14f-d10a-34c3-2f9d00f4c37a/04.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/aa/c2/55aac2b2-c14f-d10a-34c3-2f9d00f4c37a/04.png/720x1560bb.jpg",
+              "sha256": "6b9fd432633ad0bbdd474d09026fe6757e9ba2c86d3931e5f890bd9bd2c03bf8",
+              "bytes": 121552,
+              "mime_type": "image/jpeg"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "pop-quiz-daily",
       "name": "Pop Quiz Daily · 팝 퀴즈 데일리",
-      "store": "App Store",
-      "store_url": "https://apps.apple.com/kr/app/id6759132499",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/pop-quiz-daily-store-1.jpg",
-          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/5a/31/2e5a3110-6db2-1047-4918-68d13fb1e0a8/01.png/720x1560bb.jpg",
-          "sha256": "e50451e76f8e2e264d215f03e2b859e02cc468ab0412df7f88e5461c6a321f77",
-          "bytes": 115235,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 6,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/pop-quiz-daily-google-play-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/D7dS4XH2UV29CBIBy4toAaBsr06rxyRnSHS4Yf48yL3B0tCBGzxzCZcrauf1HA8spD2pONQcpBg6HUE0-S-RpA=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/D7dS4XH2UV29CBIBy4toAaBsr06rxyRnSHS4Yf48yL3B0tCBGzxzCZcrauf1HA8spD2pONQcpBg6HUE0-S-RpA=w720",
+              "sha256": "10eb4c1eaad344ee37f30711ea8469d18570c4119e7a9b7860cf2d3680a9a2a7",
+              "bytes": 190934,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/pop-quiz-daily-google-play-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/uBLbNHacTSEBvAhRcduHyYwZnYX1ZxPtbPrsdWfieBTLQQ377Sa1LPwHaQxY4ykTH4NVln7mLrizHi653Cqz=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/uBLbNHacTSEBvAhRcduHyYwZnYX1ZxPtbPrsdWfieBTLQQ377Sa1LPwHaQxY4ykTH4NVln7mLrizHi653Cqz=w720",
+              "sha256": "65abbea7cdf7bbf8bb335ec733f966aecd5c1fc16e3c1b2ce9dc4ef105785550",
+              "bytes": 187755,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/pop-quiz-daily-google-play-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/02kmnb3W9Rlm8MbxtvCxsFi0HC4RpqYrqphn4p6B5pBKbrvloY59_mjm9h_cDQe8EP_qtHSPGU79DJhcnDQPTg=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/02kmnb3W9Rlm8MbxtvCxsFi0HC4RpqYrqphn4p6B5pBKbrvloY59_mjm9h_cDQe8EP_qtHSPGU79DJhcnDQPTg=w720",
+              "sha256": "a3638185567ece88cbe9c4dd2a0294a6568e946c19df1a976d6abbb86272e386",
+              "bytes": 192361,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/pop-quiz-daily-google-play-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/bRGwC8U0zwEpQwjz065UryHg9GeLjEAxul-xfTNCTQ8OgfMwZxi7ObpJ4V-IjEzHREymRREiIL3vVeoutLdb=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/bRGwC8U0zwEpQwjz065UryHg9GeLjEAxul-xfTNCTQ8OgfMwZxi7ObpJ4V-IjEzHREymRREiIL3vVeoutLdb=w720",
+              "sha256": "f761213581479afdc37ffa948c89674ec402e864386006bddad76a4e5a530988",
+              "bytes": 165821,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/pop-quiz-daily-google-play-5.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/ISiNN2-URYxOLZ-CqjIvTB7rxYiox-o_b2cS8TM0OYD5sKRe9Rb-LdB6jLspzJXXqN9ULkiMTq7rhdVgxCv50A=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/ISiNN2-URYxOLZ-CqjIvTB7rxYiox-o_b2cS8TM0OYD5sKRe9Rb-LdB6jLspzJXXqN9ULkiMTq7rhdVgxCv50A=w720",
+              "sha256": "c5be1d9335dc2d247b02236828ec6c131d0c23403d1d43b53cdde08bb46c5dc8",
+              "bytes": 209521,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/pop-quiz-daily-google-play-6.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/9UIWWDxdp-sxJC5GqKPQ5qAS0WwyHRJjd_NNSVcdJDBK0eO_rSy8nkhJhr8OgPgGO9kQol52ReJTlV6cH7gY=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/9UIWWDxdp-sxJC5GqKPQ5qAS0WwyHRJjd_NNSVcdJDBK0eO_rSy8nkhJhr8OgPgGO9kQol52ReJTlV6cH7gY=w720",
+              "sha256": "34028bdf795ff13f354a01d12e799a2bbe8f43da547bdfe8e8950c943cb9839a",
+              "bytes": 193661,
+              "mime_type": "image/png"
+            }
+          ]
         },
         {
-          "path": "assets/apps/pop-quiz-daily-store-2.jpg",
-          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/df/b5/badfb5e3-e3f9-766a-0a7a-de03c361a730/02.png/720x1560bb.jpg",
-          "sha256": "a37defbcc8d441d706d669e7fca2f36a36fd4dbc3357b03db7ae122c720315e1",
-          "bytes": 118714,
-          "mime_type": "image/jpeg"
+          "store": "App Store",
+          "device": "iPhone",
+          "store_url": "https://apps.apple.com/kr/app/id6759132499",
+          "listing_status": "live_public_lookup",
+          "listing_source_url": "https://itunes.apple.com/lookup?id=6759132499&country=kr",
+          "listed_screenshot_count": 6,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/pop-quiz-daily-store-1.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/5a/31/2e5a3110-6db2-1047-4918-68d13fb1e0a8/01.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/5a/31/2e5a3110-6db2-1047-4918-68d13fb1e0a8/01.png/720x1560bb.jpg",
+              "sha256": "e50451e76f8e2e264d215f03e2b859e02cc468ab0412df7f88e5461c6a321f77",
+              "bytes": 115235,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/pop-quiz-daily-store-2.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/df/b5/badfb5e3-e3f9-766a-0a7a-de03c361a730/02.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/df/b5/badfb5e3-e3f9-766a-0a7a-de03c361a730/02.png/720x1560bb.jpg",
+              "sha256": "a37defbcc8d441d706d669e7fca2f36a36fd4dbc3357b03db7ae122c720315e1",
+              "bytes": 118714,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/pop-quiz-daily-store-3.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/82/03/9c8203f7-a4ae-28e8-cae8-b225f14b8b92/03.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/82/03/9c8203f7-a4ae-28e8-cae8-b225f14b8b92/03.png/720x1560bb.jpg",
+              "sha256": "12ae27427994a0270a777e3dc2e47849f234f1cbc3bc4119e772952892cee479",
+              "bytes": 132764,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/pop-quiz-daily-store-4.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/c3/a3/36c3a3da-25a4-ab88-6793-4e75f6f5000d/04.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/c3/a3/36c3a3da-25a4-ab88-6793-4e75f6f5000d/04.png/720x1560bb.jpg",
+              "sha256": "91a22fcd0bd946cf31eba30ae12557a94d6a6c61209cacdf35e54b70b501f0b6",
+              "bytes": 97858,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/pop-quiz-daily-store-5.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/63/eb/3b63ebd3-2932-4f61-9f76-068686ea0ced/05.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/63/eb/3b63ebd3-2932-4f61-9f76-068686ea0ced/05.png/720x1560bb.jpg",
+              "sha256": "b35b9253936569dc99a108d88889b4ed47ab5139deb5897ee74335e41988fc42",
+              "bytes": 114897,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/pop-quiz-daily-store-6.jpg",
+              "listed_image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/cf/02/b8cf0222-a264-57fb-3afb-253b875dfb39/06.png/320x480bb.jpg",
+              "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/cf/02/b8cf0222-a264-57fb-3afb-253b875dfb39/06.png/720x1560bb.jpg",
+              "sha256": "267faf93c91818b37bcba7304f5922b3cf548d94afa5db398dcff0458889c9b8",
+              "bytes": 89096,
+              "mime_type": "image/jpeg"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "gemiboard",
       "name": "GemiBoard · 제미보드",
-      "store": "Google Play",
-      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/gemiboard-store-1.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/qXQktA5ptV-B0Ci9p_QSYBzB082yYVUlqc3wN0Sm59V680oCJpd5ldLvA4sE98zs97xMrnQBBGy7tgKL7TOmNb0=w720",
-          "sha256": "6e9fceb39327ba75236bcd91cee83b66dc25ad5b4cb7a065fcb0c7383522492e",
-          "bytes": 41905,
-          "mime_type": "image/jpeg"
-        },
-        {
-          "path": "assets/apps/gemiboard-store-2.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/0VOTma61uMVFaxH2LiFC8OTXvNRpLx_HC_rfMeA18znSMcExa-hMXZIYKHg-EtarZZ_qvR_l9Rnl5LiIynmTSQ=w720",
-          "sha256": "a8dc2686ce1796729888e8170d32823be2806c267cb43396479dde3206e9bf71",
-          "bytes": 11523,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 8,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/gemiboard-store-1.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/34hvC16aUwNgLZbuDGj58WYVhAzK-qXX5KdETOs9qbk-vP1DqwnStxxDxAR-FHuDI9Ca_eOo9pc4EoGm40vLWw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/34hvC16aUwNgLZbuDGj58WYVhAzK-qXX5KdETOs9qbk-vP1DqwnStxxDxAR-FHuDI9Ca_eOo9pc4EoGm40vLWw=w720",
+              "sha256": "4e6640b562889f7300c8ed595516d6afc4149e4dee8a07c9d200375f3ad06deb",
+              "bytes": 315086,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/gemiboard-store-2.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/qDgbsphY9Z2b61mOf2jsTXx__IewdiB-7mISFxksgsmx31AccXLFerJW9l2Ppn2OZ0snNrBuxfbbhYm1L8r5=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/qDgbsphY9Z2b61mOf2jsTXx__IewdiB-7mISFxksgsmx31AccXLFerJW9l2Ppn2OZ0snNrBuxfbbhYm1L8r5=w720",
+              "sha256": "e5e597a68d25f3eecc49baacfdfdfcc2337c6a9fd0a358d2180af7f62c6d3768",
+              "bytes": 29222,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/gemiboard-store-3.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/qXQktA5ptV-B0Ci9p_QSYBzB082yYVUlqc3wN0Sm59V680oCJpd5ldLvA4sE98zs97xMrnQBBGy7tgKL7TOmNb0=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/qXQktA5ptV-B0Ci9p_QSYBzB082yYVUlqc3wN0Sm59V680oCJpd5ldLvA4sE98zs97xMrnQBBGy7tgKL7TOmNb0=w720",
+              "sha256": "6e9fceb39327ba75236bcd91cee83b66dc25ad5b4cb7a065fcb0c7383522492e",
+              "bytes": 41905,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/gemiboard-store-4.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/0VOTma61uMVFaxH2LiFC8OTXvNRpLx_HC_rfMeA18znSMcExa-hMXZIYKHg-EtarZZ_qvR_l9Rnl5LiIynmTSQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/0VOTma61uMVFaxH2LiFC8OTXvNRpLx_HC_rfMeA18znSMcExa-hMXZIYKHg-EtarZZ_qvR_l9Rnl5LiIynmTSQ=w720",
+              "sha256": "a8dc2686ce1796729888e8170d32823be2806c267cb43396479dde3206e9bf71",
+              "bytes": 11523,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/gemiboard-store-5.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/p5W1RSkzXWUwqbN0JqYbbWTcKriUvwika-65oH5jNxzbuZpWZkCLSkhMLO2pE4OeVWhRRFXHIOi_FKETdA82aQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/p5W1RSkzXWUwqbN0JqYbbWTcKriUvwika-65oH5jNxzbuZpWZkCLSkhMLO2pE4OeVWhRRFXHIOi_FKETdA82aQ=w720",
+              "sha256": "b6e4c7e41ebdfdc21a21e54717c69c4d9c2e3a38d10bd9f749aa7f3e91372817",
+              "bytes": 44971,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/gemiboard-store-6.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/P1aYI5YTUbawgoe3nezOmaToAFPoPX7UD2oBG_uNnazVI6ET-zjQ_K9d9JPOARAltjy4TY9Q-Ve9GjluwpKHeA=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/P1aYI5YTUbawgoe3nezOmaToAFPoPX7UD2oBG_uNnazVI6ET-zjQ_K9d9JPOARAltjy4TY9Q-Ve9GjluwpKHeA=w720",
+              "sha256": "ff0ce45d455f7ea5f52eda33e35659aaf33bb2b0f93e198f06fce5113f966a22",
+              "bytes": 28522,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 7,
+              "path": "assets/apps/gemiboard-store-7.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/aKe1MgwagRFrR-TMuct6ZNFTfDeQCD9lu82xubtIDhyZ5Sn0bXmh0mKuP5KuTSogmaH4a4K-YipQFyAPZXw4hYQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/aKe1MgwagRFrR-TMuct6ZNFTfDeQCD9lu82xubtIDhyZ5Sn0bXmh0mKuP5KuTSogmaH4a4K-YipQFyAPZXw4hYQ=w720",
+              "sha256": "27593aa6459993efc08ef36df2b9deb9d4f4d596910f1f9f1c44209653bb1983",
+              "bytes": 49867,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 8,
+              "path": "assets/apps/gemiboard-store-8.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/pupTJ88xE1a_0kslVv-pLHZE2CHiVW-cMBHlVGN2x2NXD3iDesUancN1BYzy3HzmG2vD-h5X7Z-pSGVfANqU_w=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/pupTJ88xE1a_0kslVv-pLHZE2CHiVW-cMBHlVGN2x2NXD3iDesUancN1BYzy3HzmG2vD-h5X7Z-pSGVfANqU_w=w720",
+              "sha256": "d1457e17a6d1151bc0e2b4d629e21557bb846b0009aa423979d642f8b9711ba4",
+              "bytes": 50507,
+              "mime_type": "image/jpeg"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "astro-ai",
       "name": "Astro AI",
-      "store": "Google Play",
-      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/astro-ai-store-1.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/_7qzrGgQcuYrbv8euuhBrtJ_XuQSKMXVbNC7WkO2Yjciqf2yR_J8-61KbFK3aNPQZaU-gNa7KHtpvrxpPjJ3=w720",
-          "sha256": "bc3a139ad042d4b88c882d29ce52d14300dba286ad7a096dc09814206204826f",
-          "bytes": 129935,
-          "mime_type": "image/jpeg"
-        },
-        {
-          "path": "assets/apps/astro-ai-store-2.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/A2QCj_xWe7f946EEAqLPpEtWMsiyd2ZHnZfn10zqk5dOcPj8mzTjkuJByjKOq_31_HZhRrRVGZpFEnxL2WQhlw=w720",
-          "sha256": "a669979e1e38e42c4c84b6d03eaa74fbb48cc14a22bab5f9c07fdf9f64867c3c",
-          "bytes": 130478,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai",
+          "listing_status": "public_listing_snapshot_direct_page_returns_404",
+          "listed_screenshot_count": 8,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/astro-ai-store-1.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/ji9qK1FNM2nhPA5_GWueyUd8sqi8rNHPnIYQ9cMrpqbiYfj52Dbc5PtzOLSIyntgl-HaUsOjLY4P5sGY6D6y=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/ji9qK1FNM2nhPA5_GWueyUd8sqi8rNHPnIYQ9cMrpqbiYfj52Dbc5PtzOLSIyntgl-HaUsOjLY4P5sGY6D6y=w720",
+              "sha256": "1a50477af1dad903c5d0e8c2dc4b981481b0a7c442d05cc93128f1d173a24555",
+              "bytes": 400761,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/astro-ai-store-2.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/_7qzrGgQcuYrbv8euuhBrtJ_XuQSKMXVbNC7WkO2Yjciqf2yR_J8-61KbFK3aNPQZaU-gNa7KHtpvrxpPjJ3=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/_7qzrGgQcuYrbv8euuhBrtJ_XuQSKMXVbNC7WkO2Yjciqf2yR_J8-61KbFK3aNPQZaU-gNa7KHtpvrxpPjJ3=w720",
+              "sha256": "bc3a139ad042d4b88c882d29ce52d14300dba286ad7a096dc09814206204826f",
+              "bytes": 129935,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/astro-ai-store-3.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/A2QCj_xWe7f946EEAqLPpEtWMsiyd2ZHnZfn10zqk5dOcPj8mzTjkuJByjKOq_31_HZhRrRVGZpFEnxL2WQhlw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/A2QCj_xWe7f946EEAqLPpEtWMsiyd2ZHnZfn10zqk5dOcPj8mzTjkuJByjKOq_31_HZhRrRVGZpFEnxL2WQhlw=w720",
+              "sha256": "a669979e1e38e42c4c84b6d03eaa74fbb48cc14a22bab5f9c07fdf9f64867c3c",
+              "bytes": 130478,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/astro-ai-store-4.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/Z6twQpjTC3JtF2xdPnEUz_9U6yvhk4fwxMIjgZXQ3GUqdFIrb1LK-aptxQe5Z0IfSPixbOVQzKVMaBZZGQqcbQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/Z6twQpjTC3JtF2xdPnEUz_9U6yvhk4fwxMIjgZXQ3GUqdFIrb1LK-aptxQe5Z0IfSPixbOVQzKVMaBZZGQqcbQ=w720",
+              "sha256": "6d68c3ad4d340c23f4124d449506ea6f2602c914d14af8d50443c3d05106df6d",
+              "bytes": 179070,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/astro-ai-store-5.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/Gped77thC1BvunVRkedX6NcriC505JVJyBnRfk_31IsWyC7FpbY5Baow3BrNWDQze-vsFJQseC8Mm2Ri35yX_g=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/Gped77thC1BvunVRkedX6NcriC505JVJyBnRfk_31IsWyC7FpbY5Baow3BrNWDQze-vsFJQseC8Mm2Ri35yX_g=w720",
+              "sha256": "6327001e5f3150f7999cdc06413668be6122af6c6cd87406f2b0d6ec45a7b8f3",
+              "bytes": 41696,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/astro-ai-store-6.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/jLyrEsj8_CZHJaI_cEzXpeohz48ER-9B2lo2yfBedBQtXdHJkiIKoH34u8YmiIvPnl3MM-5EkbaWLqadAEHbNh4=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/jLyrEsj8_CZHJaI_cEzXpeohz48ER-9B2lo2yfBedBQtXdHJkiIKoH34u8YmiIvPnl3MM-5EkbaWLqadAEHbNh4=w720",
+              "sha256": "d9824b41d7a8a926b7aa80b6b00bf5a617d332e1ef72a01e5a1dba129a81105c",
+              "bytes": 52751,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 7,
+              "path": "assets/apps/astro-ai-store-7.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/s2lR38PtoIKh7y8oTBMJufsPuxgt4ag2ZGJUgyWIRNe86pua_1aUsGdrM3Td_2hj9epEaaWtFiHX9quEpOAJ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/s2lR38PtoIKh7y8oTBMJufsPuxgt4ag2ZGJUgyWIRNe86pua_1aUsGdrM3Td_2hj9epEaaWtFiHX9quEpOAJ=w720",
+              "sha256": "196429e534e3d0705c5676ce4107a5b6e9316e1a205da89c26d93366ab6b446a",
+              "bytes": 178822,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "position": 8,
+              "path": "assets/apps/astro-ai-store-8.jpg",
+              "listed_image_url": "https://play-lh.googleusercontent.com/2xu9wSOJdwPVKO61Nz95NRmTtNf86jMDbGKdaz0aE8W6Gve0f99XnviUWTVirDpQJzN_DHBUxObdGZf1din2=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/2xu9wSOJdwPVKO61Nz95NRmTtNf86jMDbGKdaz0aE8W6Gve0f99XnviUWTVirDpQJzN_DHBUxObdGZf1din2=w720",
+              "sha256": "84326bdc141a3294ad8421b40cae13761bf41b794df6d6dad50318eca13f8026",
+              "bytes": 373849,
+              "mime_type": "image/jpeg"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "voda",
       "name": "Voda",
-      "store": "Google Play",
-      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.voda",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/voda-store-1.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/my0--851Z2Nyi38f3QDA7t12vRd-pmBpmnQzl6SH_qvklF3MsIoK1KT5LVqGJyPxQ4l_ztUXRFrimMKzNGl87I8=w720",
-          "sha256": "9443618fbd403921afd5592b1f510153f6ad31827234d40cd15c8da35a1cec32",
-          "bytes": 172767,
-          "mime_type": "image/jpeg"
-        },
-        {
-          "path": "assets/apps/voda-store-2.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/fvTPuVPmcloEGPYkY8Ta9vlLX5aE2fRKW3K__7IOZnQn6iG4ahuVTNqw2zq90KfvMask8hOJ9YtfP-wnZSOb5A=w720",
-          "sha256": "3fe37efaf8276416d115a2e0459411bea38618a1e9cea0ae390b84e98951c33f",
-          "bytes": 136102,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.voda",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 4,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/voda-store-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/XN9LxBmlvnGvm_GfAkr44bFRkMyGCG14b4Td16hH1Q640ATdeWf6pjxSYWUuxS1I96KOFzQsMhEk2yxbHrXf=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/XN9LxBmlvnGvm_GfAkr44bFRkMyGCG14b4Td16hH1Q640ATdeWf6pjxSYWUuxS1I96KOFzQsMhEk2yxbHrXf=w720",
+              "sha256": "c0e0d11caf76edff23ce14fe3cc279e8656a05bddb7ca4123ef8cf34d87a0fb9",
+              "bytes": 415626,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/voda-store-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/prvwjdG8RtA3rE92k0NAKBNYKTejb7BTan8EePYWA18T_ou83bVZ7CqkDhuiwTT-aJcOzHa6yZYVgorO0BCDNw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/prvwjdG8RtA3rE92k0NAKBNYKTejb7BTan8EePYWA18T_ou83bVZ7CqkDhuiwTT-aJcOzHa6yZYVgorO0BCDNw=w720",
+              "sha256": "e500eaa99e320458b213c318ac275dec0726734448b958f967179c1b1d246195",
+              "bytes": 537512,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/voda-store-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/Dezwb-sPKhEWGN17RbKQ9HtuM__V5OwHipIVWV3AXcKCe_jP67bxQcE36r9pmnQV6HFniCu2xCf1Gq8gyA4r=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/Dezwb-sPKhEWGN17RbKQ9HtuM__V5OwHipIVWV3AXcKCe_jP67bxQcE36r9pmnQV6HFniCu2xCf1Gq8gyA4r=w720",
+              "sha256": "a308425863cc59631304cefc421328d509c0e3593ce26abee7d7d764e1809c22",
+              "bytes": 395351,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/voda-store-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/E_Y0DPzzuLkfkW-51tAEWkYmopWxATdRBOoftnUIJZgbhyueMykFAxlK9kyzfqOmd92mJMeeaIAvmxoomgnc=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/E_Y0DPzzuLkfkW-51tAEWkYmopWxATdRBOoftnUIJZgbhyueMykFAxlK9kyzfqOmd92mJMeeaIAvmxoomgnc=w720",
+              "sha256": "65fa2cc4f521e15f1a3de6f9570c529f548f3b82f6f943799d82b3032791da39",
+              "bytes": 190953,
+              "mime_type": "image/png"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "meow-bow",
       "name": "멍냥이는 힐링이야 · Meow Bow",
-      "store": "Google Play",
-      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/meow-bow-store-1.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/33Kq9ZVLMrowuKijiAL8lE2dTOqIDIQfJR1oxd4i8LMtSm2qmxXpW-UhOBWwddCL_eMDs3Xu3j6AnlbfnSMBNw=w720",
-          "sha256": "e7c8ee1c0fc4c3c5165daa3854928d68cd42c12d5020151f00d98ae9dd65c0cd",
-          "bytes": 128883,
-          "mime_type": "image/jpeg"
-        },
-        {
-          "path": "assets/apps/meow-bow-store-2.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/d2bUPyEx0gqaB_KTzdiEo1CKKXbDGbtBzApxTlLmCzPIhrh66fGdkHSV4yJxQcYzkxjGNxcWkq0Et4zbGlG7yA=w720",
-          "sha256": "b026abaabc5d312830bf4c823803a9e223e05311d5ed5b994fcbd01a90c0d7db",
-          "bytes": 106331,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 6,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/meow-bow-store-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/nReNoOnGHFlxkfQE5xpzXpC_A4TYDMbG0wmVlmUeYc1rwRR17PiFB4lFp3xVIAHEEWJ32PxpeLLnqutXAsJn0A=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/nReNoOnGHFlxkfQE5xpzXpC_A4TYDMbG0wmVlmUeYc1rwRR17PiFB4lFp3xVIAHEEWJ32PxpeLLnqutXAsJn0A=w720",
+              "sha256": "38f22744eafb0a0faa97038556b0db21d795ab0179d0bc6044494e8138be5029",
+              "bytes": 424866,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/meow-bow-store-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/bzCwKpwQ66TI_GneLy2B9krW24GKMp_5EI7KhK4IwEIrSW7xwCx1INipJmoISKUnKhAmuLQhRL5B515P__jfjQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/bzCwKpwQ66TI_GneLy2B9krW24GKMp_5EI7KhK4IwEIrSW7xwCx1INipJmoISKUnKhAmuLQhRL5B515P__jfjQ=w720",
+              "sha256": "f56c69a5629e9ff1bbe134240bb9b952892cc060142ddb3718b2917c2d1c027e",
+              "bytes": 393653,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/meow-bow-store-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/RFfoY3QJVoxf4uH_-oJXRwLQuYATaGWxcEG-xdbZbXKRnw6S11R4ogPHn3rqTIZjxqnahRm4Rj4bnv52qNPpZA=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/RFfoY3QJVoxf4uH_-oJXRwLQuYATaGWxcEG-xdbZbXKRnw6S11R4ogPHn3rqTIZjxqnahRm4Rj4bnv52qNPpZA=w720",
+              "sha256": "760f717e8219fd415ba070f6741bfd7a078d27e6ecf0b18b1c2439411a9d532c",
+              "bytes": 311358,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/meow-bow-store-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/tLqDlJIZFAnP9p7Q2-eFaCJjjvCt5LBshXXlEqoxo2GDdittp4eTOqdF2GKzSf1gu8guuVGRmWBfUJpjbq1nzQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/tLqDlJIZFAnP9p7Q2-eFaCJjjvCt5LBshXXlEqoxo2GDdittp4eTOqdF2GKzSf1gu8guuVGRmWBfUJpjbq1nzQ=w720",
+              "sha256": "3c5f09216325e299adebbbbec9b2a5652c639f1399bc04628d3392cb084b9d5d",
+              "bytes": 579245,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/meow-bow-store-5.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/hNmck4fXyeew0dC7Aht5cP29ruwYTGLhonnZcGCLXjZq56DORIvPwFoIDIyNBKixAjiEcOWbMSQwiIwzxf189w=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/hNmck4fXyeew0dC7Aht5cP29ruwYTGLhonnZcGCLXjZq56DORIvPwFoIDIyNBKixAjiEcOWbMSQwiIwzxf189w=w720",
+              "sha256": "6cb6a056c7306eef54c5cd8b7fed55b146d7db18492646d848220bdcc3273d50",
+              "bytes": 184243,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/meow-bow-store-6.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/Mft-j0ItzsszAFZgOP9Io6dmVZ30-jclfSRGjFplNXyashYkE0jkuGqiLcafB0YqFb1X-xKLl0oyfL9dbHW7Eg=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/Mft-j0ItzsszAFZgOP9Io6dmVZ30-jclfSRGjFplNXyashYkE0jkuGqiLcafB0YqFb1X-xKLl0oyfL9dbHW7Eg=w720",
+              "sha256": "ef173709cf6aba616b9c7ec122bd4b83596dd5652788452aa7488ade2c7f67a5",
+              "bytes": 179900,
+              "mime_type": "image/png"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "cocktail-wiki",
       "name": "칵테일 위키 · Cocktail Wiki",
-      "store": "Google Play",
-      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/cocktail-wiki-store-1.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/e9v3PyuE0cyP48KN__CTj95BLZw9nMTfn_rUK617AvSTuwCxVLboLxQ7EEmER66caIZkyIoigOxsLUGdkCcSqo4=w720",
-          "sha256": "9dc4f4fe520e1e51d4a2baf62bb1f06db02de64f839527f7919353e15dab2e92",
-          "bytes": 118528,
-          "mime_type": "image/jpeg"
-        },
-        {
-          "path": "assets/apps/cocktail-wiki-store-2.jpg",
-          "source_url": "https://play-lh.googleusercontent.com/P8Cc8W23LYxQCM9As9loi9u_ThY1dMoF0qeiRuMsWkSTizH6H7e5fP_lhMs_c-sET0mE_wORSLc8L77-X9rc=w720",
-          "sha256": "124a8da11406810349fc8fd6d567eb7e7d061b7d16f8805e12a31b6d6bc3f903",
-          "bytes": 136848,
-          "mime_type": "image/jpeg"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 5,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/cocktail-wiki-store-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/oj5CNPKAWCFeonW7l_luHL6U4AR4xSIqoORif_ogPxt8w-ipvhlMB9d5JO29Drh1M_FxBkbQeOCqpL_m0f8L5_I=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/oj5CNPKAWCFeonW7l_luHL6U4AR4xSIqoORif_ogPxt8w-ipvhlMB9d5JO29Drh1M_FxBkbQeOCqpL_m0f8L5_I=w720",
+              "sha256": "d247b326a0b8d88c78bf6a0177c72366017ff4c5b69ba75066f282cc5480e6b8",
+              "bytes": 333387,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/cocktail-wiki-store-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/pl8bGFMQ23xZXsFTY0f4bndVGJcyVajny8x_Mn4K2rIvNZ-tdHgFJ1TuCGXUIHvF1y2x40caWer5p8D2cKghTw=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/pl8bGFMQ23xZXsFTY0f4bndVGJcyVajny8x_Mn4K2rIvNZ-tdHgFJ1TuCGXUIHvF1y2x40caWer5p8D2cKghTw=w720",
+              "sha256": "4ca52fd5bbadc4a337496d2ce74ab891b7bec5addb73ed928c191ea7c193adf5",
+              "bytes": 200137,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/cocktail-wiki-store-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/WKzLQb-AXRUjj3nn_y1NwYSX0UfdRnaIA4n7MiB1RDiiFy1v3xT3uOR2d9QhbTilaoVVTy9KaS8Fl-5Evz9g8Q=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/WKzLQb-AXRUjj3nn_y1NwYSX0UfdRnaIA4n7MiB1RDiiFy1v3xT3uOR2d9QhbTilaoVVTy9KaS8Fl-5Evz9g8Q=w720",
+              "sha256": "2c31223774af31d9b31f07a00eb81191d2af641f3af28e225e128b3333edcb26",
+              "bytes": 170319,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/cocktail-wiki-store-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/cBfDYknrAghB5d-_MeQFrQpX8z1ePzcS21g6nO9NOZRBTjOVUcqVoqrrf380TEqO7kT3wfy-xfmUFs_19Upo=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/cBfDYknrAghB5d-_MeQFrQpX8z1ePzcS21g6nO9NOZRBTjOVUcqVoqrrf380TEqO7kT3wfy-xfmUFs_19Upo=w720",
+              "sha256": "998be891a1c36be877e65c1f08edaa9a4cd4101b2998efc102145c6bc466327e",
+              "bytes": 226026,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/cocktail-wiki-store-5.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/-2dMNFWXsfAs7KJ8u96D3h9kf3zO2nejGL3NU9X2VGN6pBbo25qNUNiy4tuZjxJsRY5Ogj7iNl8KM9q4jJd41-4=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/-2dMNFWXsfAs7KJ8u96D3h9kf3zO2nejGL3NU9X2VGN6pBbo25qNUNiy4tuZjxJsRY5Ogj7iNl8KM9q4jJd41-4=w720",
+              "sha256": "ae94a714caf62b771e69d3b96fb9de16a74968c5b77196eb3d72abeea9ab1150",
+              "bytes": 175058,
+              "mime_type": "image/png"
+            }
+          ]
         }
       ]
     },
     {
       "slug": "pickit",
       "name": "PickIt · 픽잇",
-      "store": "Google Play",
-      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit",
-      "screenshots": [
+      "galleries": [
         {
-          "path": "assets/apps/pickit-store-1.png",
-          "source_url": "https://play-lh.googleusercontent.com/014QtqaWQuH8Xfj2tG3dMXBxHEx9FXLTgumhV67cSXpiBLlMrc2P1B4N44OCXMwOZcHsGwRtS3JvYg3tG-dK=w720",
-          "sha256": "bb59f2ee9e9c042a09f9126389bbdbc3e43b05f49fd6333f6d95c653db0aea2b",
-          "bytes": 184992,
-          "mime_type": "image/png"
-        },
-        {
-          "path": "assets/apps/pickit-store-2.png",
-          "source_url": "https://play-lh.googleusercontent.com/_jI7Wws-zyzFJxNtQO3xvFWJT4NdMO2yZ6N30jcFE2-LmiavQqSO7AFEpMWUAktzcn1rCCdsqQ0e86uyaPxs=w720",
-          "sha256": "e47772547421d88a017614da34016b78dd343e7e66c4ce4b099d70efe82d3ea3",
-          "bytes": 235955,
-          "mime_type": "image/png"
+          "store": "Google Play",
+          "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit",
+          "listing_status": "live_public_listing",
+          "listed_screenshot_count": 6,
+          "screenshots": [
+            {
+              "position": 1,
+              "path": "assets/apps/pickit-store-1.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/014QtqaWQuH8Xfj2tG3dMXBxHEx9FXLTgumhV67cSXpiBLlMrc2P1B4N44OCXMwOZcHsGwRtS3JvYg3tG-dK=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/014QtqaWQuH8Xfj2tG3dMXBxHEx9FXLTgumhV67cSXpiBLlMrc2P1B4N44OCXMwOZcHsGwRtS3JvYg3tG-dK=w720",
+              "sha256": "bb59f2ee9e9c042a09f9126389bbdbc3e43b05f49fd6333f6d95c653db0aea2b",
+              "bytes": 184992,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 2,
+              "path": "assets/apps/pickit-store-2.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/_jI7Wws-zyzFJxNtQO3xvFWJT4NdMO2yZ6N30jcFE2-LmiavQqSO7AFEpMWUAktzcn1rCCdsqQ0e86uyaPxs=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/_jI7Wws-zyzFJxNtQO3xvFWJT4NdMO2yZ6N30jcFE2-LmiavQqSO7AFEpMWUAktzcn1rCCdsqQ0e86uyaPxs=w720",
+              "sha256": "e47772547421d88a017614da34016b78dd343e7e66c4ce4b099d70efe82d3ea3",
+              "bytes": 235955,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 3,
+              "path": "assets/apps/pickit-store-3.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/ny8_iXB2Hrf6qtoi8v6rnOu3phcOgwoA0bhlJfwtibUCMY0NWIOTDs9P6OJeofhdIHgDBf5HRn1aKj2Ue5s9=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/ny8_iXB2Hrf6qtoi8v6rnOu3phcOgwoA0bhlJfwtibUCMY0NWIOTDs9P6OJeofhdIHgDBf5HRn1aKj2Ue5s9=w720",
+              "sha256": "e4c180ba894bb4a6ce2e7542391aa35fc73729bdb583a6a346451f6317020533",
+              "bytes": 171683,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 4,
+              "path": "assets/apps/pickit-store-4.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/V4W41oaGPUbXj_BiuT6fjytD038VgVNJdZCtc-Hn3Pv7VaVIkujBYTq7NPMXkwrCif4njgln4JGvWPCqATzIxA=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/V4W41oaGPUbXj_BiuT6fjytD038VgVNJdZCtc-Hn3Pv7VaVIkujBYTq7NPMXkwrCif4njgln4JGvWPCqATzIxA=w720",
+              "sha256": "c449bfac779fa1d3d39f89e4d342fda76d32c07f5d17fe963e5459a8beac2fb8",
+              "bytes": 151108,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 5,
+              "path": "assets/apps/pickit-store-5.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/g1acxtsm6cN_i4DiN9Pts-2dihMOO7st4EwB8crO2najl8KKZXiWtV4abY5_bO8KSID1HJwPENga07CfK7HCn_s=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/g1acxtsm6cN_i4DiN9Pts-2dihMOO7st4EwB8crO2najl8KKZXiWtV4abY5_bO8KSID1HJwPENga07CfK7HCn_s=w720",
+              "sha256": "c4515b01e4ac9c657cac9a62e27ef53a7219f457b1811ca89c25a8315f548558",
+              "bytes": 146225,
+              "mime_type": "image/png"
+            },
+            {
+              "position": 6,
+              "path": "assets/apps/pickit-store-6.png",
+              "listed_image_url": "https://play-lh.googleusercontent.com/upQdopaEZDo6Bqokt25918YV3xA2UAkIJTsdZhzygJ9xLfOGhc8HHZqWD55cDbVTDElTnsyYvM4De-i4_fnFIQ=w526-h296",
+              "source_url": "https://play-lh.googleusercontent.com/upQdopaEZDo6Bqokt25918YV3xA2UAkIJTsdZhzygJ9xLfOGhc8HHZqWD55cDbVTDElTnsyYvM4De-i4_fnFIQ=w720",
+              "sha256": "e8c8bddc55e2d67c91b9d14dbc5e8302f3093221658aee1fbeb3114c5e6c3607",
+              "bytes": 159339,
+              "mime_type": "image/png"
+            }
+          ]
         }
       ]
     }

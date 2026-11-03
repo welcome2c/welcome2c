@@ -88,10 +88,18 @@
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast) · [App Store](https://apps.apple.com/kr/app/id6758431684)
 
 <details>
-<summary><b>실제 앱 화면 · App Store</b></summary>
+<summary><b>실제 앱 화면 · Google Play / App Store</b></summary>
+
+<p><b>Google Play</b></p>
 
 <p>
-<img src="assets/apps/weathercast-store-1.jpg" width="200" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 1"> <img src="assets/apps/weathercast-store-2.jpg" width="200" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 2">
+<img src="assets/apps/weathercast-google-play-1.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 1"> <img src="assets/apps/weathercast-google-play-2.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 2"> <img src="assets/apps/weathercast-google-play-3.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 3"> <img src="assets/apps/weathercast-google-play-4.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 4"> <img src="assets/apps/weathercast-google-play-5.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 5"> <img src="assets/apps/weathercast-google-play-6.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 6"> <img src="assets/apps/weathercast-google-play-7.png" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast Google Play 공개 스크린샷 7">
+</p>
+
+<p><b>App Store</b></p>
+
+<p>
+<img src="assets/apps/weathercast-store-1.jpg" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 1"> <img src="assets/apps/weathercast-store-2.jpg" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 2"> <img src="assets/apps/weathercast-store-3.jpg" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 3"> <img src="assets/apps/weathercast-store-4.jpg" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 4"> <img src="assets/apps/weathercast-store-5.jpg" width="200" loading="lazy" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 5">
 </p>
 
 </details>
@@ -107,10 +115,18 @@
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg) · [App Store](https://apps.apple.com/kr/app/id6760536041)
 
 <details>
-<summary><b>실제 앱 화면 · App Store</b></summary>
+<summary><b>실제 앱 화면 · Google Play / App Store</b></summary>
+
+<p><b>Google Play</b></p>
 
 <p>
-<img src="assets/apps/pixel-walker-store-1.jpg" width="200" alt="Pixel Walker RPG App Store 공개 스크린샷 1"> <img src="assets/apps/pixel-walker-store-2.jpg" width="200" alt="Pixel Walker RPG App Store 공개 스크린샷 2">
+<img src="assets/apps/pixel-walker-google-play-1.png" width="200" loading="lazy" alt="Pixel Walker RPG Google Play 공개 스크린샷 1"> <img src="assets/apps/pixel-walker-google-play-2.png" width="200" loading="lazy" alt="Pixel Walker RPG Google Play 공개 스크린샷 2"> <img src="assets/apps/pixel-walker-google-play-3.png" width="200" loading="lazy" alt="Pixel Walker RPG Google Play 공개 스크린샷 3"> <img src="assets/apps/pixel-walker-google-play-4.png" width="200" loading="lazy" alt="Pixel Walker RPG Google Play 공개 스크린샷 4"> <img src="assets/apps/pixel-walker-google-play-5.png" width="200" loading="lazy" alt="Pixel Walker RPG Google Play 공개 스크린샷 5">
+</p>
+
+<p><b>App Store</b></p>
+
+<p>
+<img src="assets/apps/pixel-walker-store-1.jpg" width="200" loading="lazy" alt="Pixel Walker RPG App Store 공개 스크린샷 1"> <img src="assets/apps/pixel-walker-store-2.jpg" width="200" loading="lazy" alt="Pixel Walker RPG App Store 공개 스크린샷 2"> <img src="assets/apps/pixel-walker-store-3.jpg" width="200" loading="lazy" alt="Pixel Walker RPG App Store 공개 스크린샷 3"> <img src="assets/apps/pixel-walker-store-4.jpg" width="200" loading="lazy" alt="Pixel Walker RPG App Store 공개 스크린샷 4">
 </p>
 
 </details>
@@ -129,7 +145,7 @@
 <summary><b>실제 앱 화면 · Google Play</b></summary>
 
 <p>
-<img src="assets/apps/gemiboard-store-1.jpg" width="200" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 1"> <img src="assets/apps/gemiboard-store-2.jpg" width="200" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 2">
+<img src="assets/apps/gemiboard-store-1.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 1"> <img src="assets/apps/gemiboard-store-2.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 2"> <img src="assets/apps/gemiboard-store-3.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 3"> <img src="assets/apps/gemiboard-store-4.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 4"> <img src="assets/apps/gemiboard-store-5.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 5"> <img src="assets/apps/gemiboard-store-6.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 6"> <img src="assets/apps/gemiboard-store-7.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 7"> <img src="assets/apps/gemiboard-store-8.jpg" width="200" loading="lazy" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 8">
 </p>
 
 </details>
@@ -145,10 +161,18 @@
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) · [App Store](https://apps.apple.com/kr/app/id6759132499)
 
 <details>
-<summary><b>실제 앱 화면 · App Store</b></summary>
+<summary><b>실제 앱 화면 · Google Play / App Store</b></summary>
+
+<p><b>Google Play</b></p>
 
 <p>
-<img src="assets/apps/pop-quiz-daily-store-1.jpg" width="200" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 1"> <img src="assets/apps/pop-quiz-daily-store-2.jpg" width="200" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 2">
+<img src="assets/apps/pop-quiz-daily-google-play-1.png" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 Google Play 공개 스크린샷 1"> <img src="assets/apps/pop-quiz-daily-google-play-2.png" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 Google Play 공개 스크린샷 2"> <img src="assets/apps/pop-quiz-daily-google-play-3.png" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 Google Play 공개 스크린샷 3"> <img src="assets/apps/pop-quiz-daily-google-play-4.png" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 Google Play 공개 스크린샷 4"> <img src="assets/apps/pop-quiz-daily-google-play-5.png" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 Google Play 공개 스크린샷 5"> <img src="assets/apps/pop-quiz-daily-google-play-6.png" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 Google Play 공개 스크린샷 6">
+</p>
+
+<p><b>App Store</b></p>
+
+<p>
+<img src="assets/apps/pop-quiz-daily-store-1.jpg" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 1"> <img src="assets/apps/pop-quiz-daily-store-2.jpg" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 2"> <img src="assets/apps/pop-quiz-daily-store-3.jpg" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 3"> <img src="assets/apps/pop-quiz-daily-store-4.jpg" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 4"> <img src="assets/apps/pop-quiz-daily-store-5.jpg" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 5"> <img src="assets/apps/pop-quiz-daily-store-6.jpg" width="200" loading="lazy" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 6">
 </p>
 
 </details>
@@ -165,7 +189,7 @@
 <summary><b>실제 앱 화면 · Google Play</b></summary>
 
 <p>
-<img src="assets/apps/astro-ai-store-1.jpg" width="200" alt="Astro AI Google Play 공개 스크린샷 1"> <img src="assets/apps/astro-ai-store-2.jpg" width="200" alt="Astro AI Google Play 공개 스크린샷 2">
+<img src="assets/apps/astro-ai-store-1.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 1"> <img src="assets/apps/astro-ai-store-2.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 2"> <img src="assets/apps/astro-ai-store-3.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 3"> <img src="assets/apps/astro-ai-store-4.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 4"> <img src="assets/apps/astro-ai-store-5.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 5"> <img src="assets/apps/astro-ai-store-6.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 6"> <img src="assets/apps/astro-ai-store-7.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 7"> <img src="assets/apps/astro-ai-store-8.jpg" width="200" loading="lazy" alt="Astro AI Google Play 공개 스크린샷 8">
 </p>
 
 </details>
@@ -184,7 +208,7 @@
 <summary><b>실제 앱 화면 · Google Play</b></summary>
 
 <p>
-<img src="assets/apps/voda-store-1.jpg" width="200" alt="Voda Google Play 공개 스크린샷 1"> <img src="assets/apps/voda-store-2.jpg" width="200" alt="Voda Google Play 공개 스크린샷 2">
+<img src="assets/apps/voda-store-1.png" width="200" loading="lazy" alt="Voda Google Play 공개 스크린샷 1"> <img src="assets/apps/voda-store-2.png" width="200" loading="lazy" alt="Voda Google Play 공개 스크린샷 2"> <img src="assets/apps/voda-store-3.png" width="200" loading="lazy" alt="Voda Google Play 공개 스크린샷 3"> <img src="assets/apps/voda-store-4.png" width="200" loading="lazy" alt="Voda Google Play 공개 스크린샷 4">
 </p>
 
 </details>
@@ -203,7 +227,7 @@
 <summary><b>실제 앱 화면 · Google Play</b></summary>
 
 <p>
-<img src="assets/apps/meow-bow-store-1.jpg" width="200" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 1"> <img src="assets/apps/meow-bow-store-2.jpg" width="200" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 2">
+<img src="assets/apps/meow-bow-store-1.png" width="200" loading="lazy" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 1"> <img src="assets/apps/meow-bow-store-2.png" width="200" loading="lazy" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 2"> <img src="assets/apps/meow-bow-store-3.png" width="200" loading="lazy" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 3"> <img src="assets/apps/meow-bow-store-4.png" width="200" loading="lazy" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 4"> <img src="assets/apps/meow-bow-store-5.png" width="200" loading="lazy" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 5"> <img src="assets/apps/meow-bow-store-6.png" width="200" loading="lazy" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 6">
 </p>
 
 </details>
@@ -221,7 +245,7 @@
 <summary><b>실제 앱 화면 · Google Play</b></summary>
 
 <p>
-<img src="assets/apps/cocktail-wiki-store-1.jpg" width="200" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 1"> <img src="assets/apps/cocktail-wiki-store-2.jpg" width="200" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 2">
+<img src="assets/apps/cocktail-wiki-store-1.png" width="200" loading="lazy" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 1"> <img src="assets/apps/cocktail-wiki-store-2.png" width="200" loading="lazy" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 2"> <img src="assets/apps/cocktail-wiki-store-3.png" width="200" loading="lazy" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 3"> <img src="assets/apps/cocktail-wiki-store-4.png" width="200" loading="lazy" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 4"> <img src="assets/apps/cocktail-wiki-store-5.png" width="200" loading="lazy" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 5">
 </p>
 
 </details>
@@ -239,7 +263,7 @@
 <summary><b>실제 앱 화면 · Google Play</b></summary>
 
 <p>
-<img src="assets/apps/pickit-store-1.png" width="200" alt="PickIt · 픽잇 Google Play 공개 스크린샷 1"> <img src="assets/apps/pickit-store-2.png" width="200" alt="PickIt · 픽잇 Google Play 공개 스크린샷 2">
+<img src="assets/apps/pickit-store-1.png" width="200" loading="lazy" alt="PickIt · 픽잇 Google Play 공개 스크린샷 1"> <img src="assets/apps/pickit-store-2.png" width="200" loading="lazy" alt="PickIt · 픽잇 Google Play 공개 스크린샷 2"> <img src="assets/apps/pickit-store-3.png" width="200" loading="lazy" alt="PickIt · 픽잇 Google Play 공개 스크린샷 3"> <img src="assets/apps/pickit-store-4.png" width="200" loading="lazy" alt="PickIt · 픽잇 Google Play 공개 스크린샷 4"> <img src="assets/apps/pickit-store-5.png" width="200" loading="lazy" alt="PickIt · 픽잇 Google Play 공개 스크린샷 5"> <img src="assets/apps/pickit-store-6.png" width="200" loading="lazy" alt="PickIt · 픽잇 Google Play 공개 스크린샷 6">
 </p>
 
 </details>
