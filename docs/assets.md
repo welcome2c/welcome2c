@@ -16,9 +16,21 @@ Python 표준 라이브러리만 사용합니다. 앱 아이콘은 SVG 안에 �
 
 기술 배지의 로고는 [Simple Icons](https://github.com/simple-icons/simple-icons)에서 가져와 로컬 SVG로 구성했습니다. 배지는 외부 이미지 서비스에 의존하지 않고 저장소에서 직접 제공합니다.
 
-앱 아이콘과 스크린샷은 아래 Tap Studio 앱의 공개 스토어 자료를 사용했습니다. 2026-10-30에 확인한 이미지이며, 앱 업데이트에 따라 실제 화면이 달라질 수 있습니다.
+기존 앱 아이콘은 공개 스토어 자료를 사용했습니다. 2026-10-30에 확인한 이미지이며, 앱 업데이트에 따라 실제 화면이 달라질 수 있습니다.
+
+## 프로필의 스토어 스크린샷
+
+2026-11-03에 공개 App Store·Google Play 이미지 CDN에서 앱별 스크린샷 2장씩, 총 18장을 가져왔습니다.
+앱 설명 아래의 접힌 드롭다운에서 볼 수 있으며 이미지 비율은 원본을 유지합니다.
+개발 중인 앱이나 에뮬레이터의 화면은 사용하지 않았습니다.
+출처 URL·파일 크기·SHA-256은 [이미지 출처 목록](../assets/apps/store-screenshots.json)에 기록했습니다.
 
 - [오늘뭐입지 · WeatherCast — App Store](https://apps.apple.com/kr/app/id6758431684)
 - [Pixel Walker RPG — App Store](https://apps.apple.com/kr/app/id6760536041)
 - [Pop Quiz Daily — App Store](https://apps.apple.com/kr/app/id6759132499)
 - [GemiBoard — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard)
+- [Astro AI — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai)
+- [Voda — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.voda)
+- [멍냥이는 힐링이야 · Meow Bow — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow)
+- [칵테일 위키 · Cocktail Wiki — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki)
+- [PickIt · 픽잇 — Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit)

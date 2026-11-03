@@ -87,6 +87,15 @@
 - **기술:** Kotlin · Compose · SwiftUI · WidgetKit · Firebase AI Logic
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.weathercast) · [App Store](https://apps.apple.com/kr/app/id6758431684)
 
+<details>
+<summary><b>실제 앱 화면 · App Store</b></summary>
+
+<p>
+<img src="assets/apps/weathercast-store-1.jpg" width="200" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 1"> <img src="assets/apps/weathercast-store-2.jpg" width="200" alt="오늘뭐입지 · WeatherCast App Store 공개 스크린샷 2">
+</p>
+
+</details>
+
 ### Pixel Walker RPG
 
 **Android / iOS** · 실제 걸음 수를 탐험과 캐릭터 성장으로 연결한 만보기 RPG입니다.\
@@ -96,6 +105,15 @@
   iOS의 백그라운드 걸음 수 반영 누락과 퀘스트 중복 집계를 수정했습니다.
 - **기술:** Kotlin · Compose · SwiftUI · 걸음 센서 · Firebase · 위젯
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pixelwalkerrpg) · [App Store](https://apps.apple.com/kr/app/id6760536041)
+
+<details>
+<summary><b>실제 앱 화면 · App Store</b></summary>
+
+<p>
+<img src="assets/apps/pixel-walker-store-1.jpg" width="200" alt="Pixel Walker RPG App Store 공개 스크린샷 1"> <img src="assets/apps/pixel-walker-store-2.jpg" width="200" alt="Pixel Walker RPG App Store 공개 스크린샷 2">
+</p>
+
+</details>
 
 ### GemiBoard · 제미보드
 
@@ -107,6 +125,15 @@
 - **기술:** Kotlin · Compose · InputMethodService · 한글 오토마타 · Gemini
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard)
 
+<details>
+<summary><b>실제 앱 화면 · Google Play</b></summary>
+
+<p>
+<img src="assets/apps/gemiboard-store-1.jpg" width="200" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 1"> <img src="assets/apps/gemiboard-store-2.jpg" width="200" alt="GemiBoard · 제미보드 Google Play 공개 스크린샷 2">
+</p>
+
+</details>
+
 ### Pop Quiz Daily · 팝 퀴즈 데일리
 
 **Android / iOS** · 매일 여러 분야의 상식을 풀고 해설로 복습하는 퀴즈 앱입니다.\
@@ -117,6 +144,15 @@
 - **기술:** Kotlin Multiplatform · Compose Multiplatform · Room · Koin · Firebase
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.popquizdaily) · [App Store](https://apps.apple.com/kr/app/id6759132499)
 
+<details>
+<summary><b>실제 앱 화면 · App Store</b></summary>
+
+<p>
+<img src="assets/apps/pop-quiz-daily-store-1.jpg" width="200" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 1"> <img src="assets/apps/pop-quiz-daily-store-2.jpg" width="200" alt="Pop Quiz Daily · 팝 퀴즈 데일리 App Store 공개 스크린샷 2">
+</p>
+
+</details>
+
 ### Astro AI
 
 **Android** · 사용자의 고민과 상황에 맞춰 AI가 타로를 해석하는 운세·상담 앱입니다.\
@@ -124,6 +160,15 @@
 
 - **개발:** Gemini 기반 상담과 로컬 타로 데이터를 연결하고, 상담 기록과 Google Drive 백업 기능을 구성했습니다.
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai)
+
+<details>
+<summary><b>실제 앱 화면 · Google Play</b></summary>
+
+<p>
+<img src="assets/apps/astro-ai-store-1.jpg" width="200" alt="Astro AI Google Play 공개 스크린샷 1"> <img src="assets/apps/astro-ai-store-2.jpg" width="200" alt="Astro AI Google Play 공개 스크린샷 2">
+</p>
+
+</details>
 
 ### Voda
 
@@ -135,6 +180,15 @@
 - **기술:** Kotlin · Compose · Hilt · Room · Gemini
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.voda)
 
+<details>
+<summary><b>실제 앱 화면 · Google Play</b></summary>
+
+<p>
+<img src="assets/apps/voda-store-1.jpg" width="200" alt="Voda Google Play 공개 스크린샷 1"> <img src="assets/apps/voda-store-2.jpg" width="200" alt="Voda Google Play 공개 스크린샷 2">
+</p>
+
+</details>
+
 ### 멍냥이는 힐링이야 · Meow Bow
 
 **Android** · 강아지·고양이 사진을 감상하고 사진과 품종을 수집하는 앱입니다.\
@@ -145,6 +199,15 @@
 - **기술:** Kotlin · Compose · Hilt · Room · Retrofit · Firebase AI
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow)
 
+<details>
+<summary><b>실제 앱 화면 · Google Play</b></summary>
+
+<p>
+<img src="assets/apps/meow-bow-store-1.jpg" width="200" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 1"> <img src="assets/apps/meow-bow-store-2.jpg" width="200" alt="멍냥이는 힐링이야 · Meow Bow Google Play 공개 스크린샷 2">
+</p>
+
+</details>
+
 ### 칵테일 위키 · Cocktail Wiki
 
 **Android** · 재료와 취향에 맞는 칵테일·무알콜 음료 레시피를 찾는 앱입니다.\
@@ -153,6 +216,15 @@
 - **개발:** 레시피 API와 AI 바텐더를 연동하고, Room 기반 즐겨찾기와 백업 기능을 구성했습니다.
 - **기술:** Kotlin · Compose · Hilt · Room · Retrofit · Firebase AI
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki)
+
+<details>
+<summary><b>실제 앱 화면 · Google Play</b></summary>
+
+<p>
+<img src="assets/apps/cocktail-wiki-store-1.jpg" width="200" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 1"> <img src="assets/apps/cocktail-wiki-store-2.jpg" width="200" alt="칵테일 위키 · Cocktail Wiki Google Play 공개 스크린샷 2">
+</p>
+
+</details>
 
 ### PickIt · 픽잇
 
@@ -163,26 +235,19 @@
 - **기술:** Kotlin · Compose · Hilt · Room · DataStore
 - **출시:** [Google Play](https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit)
 
-<details open>
-<summary><b>실제 앱 화면 · 오늘뭐입지 / Pixel Walker RPG</b></summary>
-<br>
+<details>
+<summary><b>실제 앱 화면 · Google Play</b></summary>
 
-<a href="https://apps.apple.com/kr/app/id6758431684"><img src="assets/apps/weathercast-screen-1.jpg" width="220" alt="오늘뭐입지 App Store 공개 화면"></a> <a href="https://apps.apple.com/kr/app/id6760536041"><img src="assets/apps/pixel-walker-screen-1.jpg" width="220" alt="Pixel Walker RPG App Store 공개 화면"></a>
+<p>
+<img src="assets/apps/pickit-store-1.png" width="200" alt="PickIt · 픽잇 Google Play 공개 스크린샷 1"> <img src="assets/apps/pickit-store-2.png" width="200" alt="PickIt · 픽잇 Google Play 공개 스크린샷 2">
+</p>
 
 </details>
-
-## 오픈소스 · 개발 도구
-
-- [**CrossPromoSDK**](https://github.com/welcome2c/CrossPromoSDK) — 여러 앱에서 재사용하는 교차 홍보 SDK입니다.\
-  Android·iOS·Firestore로 구성했습니다.
-- [**HoonyDisk**](https://github.com/welcome2c/HoonyDisk) — SwiftUI 기반 macOS 저장 공간 분석·정리 도구입니다.
-- [**LottieProgressDialog**](https://github.com/welcome2c/LottieProgressDialog) — Lottie 애니메이션을 활용한 Android Dialog 라이브러리입니다.
 
 ## 기술 스택
 
 - **Android:** Kotlin · Java · Jetpack Compose · Coroutines / Flow · Hilt · Room · DataStore · WorkManager
 - **iOS·멀티플랫폼:** SwiftUI · Kotlin Multiplatform · Compose Multiplatform · Koin · WidgetKit · ActivityKit
-- **플랫폼·미디어:** InputMethodService · CameraX · ML Kit DocumentScanner · Foreground Service · ExoPlayer
 - **백엔드·AI:** Firebase · Firestore · Remote Config · Cloud Functions · Firebase AI Logic · App Check
 - **개발·배포:** GitLab CI · GitHub Actions · fastlane · Detekt · AI 코드 리뷰
 

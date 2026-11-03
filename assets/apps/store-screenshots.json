@@ -1,0 +1,203 @@
+{
+  "retrieved_at": "2026-11-03T00:34:28+00:00",
+  "apps": [
+    {
+      "slug": "weathercast",
+      "name": "오늘뭐입지 · WeatherCast",
+      "store": "App Store",
+      "store_url": "https://apps.apple.com/kr/app/id6758431684",
+      "screenshots": [
+        {
+          "path": "assets/apps/weathercast-store-1.jpg",
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/07/fb/cf07fbf0-6bb8-90bb-9825-61cd5e8b941d/01.png/720x1560bb.jpg",
+          "sha256": "2665a22b914fb17fd7dcafe21df272286274eb6b6b09c8215892ea9978f344a9",
+          "bytes": 129439,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/weathercast-store-2.jpg",
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/88/c1/2e88c1dc-f708-4b6c-1a1f-2fbbc114ee81/02.png/720x1560bb.jpg",
+          "sha256": "acb3133d2ebd4630adf4b6f6976676b8fa636b349c551face8578c12772581bc",
+          "bytes": 112905,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "pixel-walker",
+      "name": "Pixel Walker RPG",
+      "store": "App Store",
+      "store_url": "https://apps.apple.com/kr/app/id6760536041",
+      "screenshots": [
+        {
+          "path": "assets/apps/pixel-walker-store-1.jpg",
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/59/4f/b7594f66-ae68-63e1-3c70-225bc2614624/01.png/720x1560bb.jpg",
+          "sha256": "4c888bef05977432680def15126bdb841beb8ce6a6abd41b8df4eda5aa9bbfbf",
+          "bytes": 150388,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/pixel-walker-store-2.jpg",
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/6e/55/fc6e55ab-8991-2c93-0c04-4f8f69202e30/02.png/720x1560bb.jpg",
+          "sha256": "af7dc622a82e1dc67c48ef39690ff3dfc2ca3b98b48eccf162bb213dfbae8448",
+          "bytes": 117825,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "pop-quiz-daily",
+      "name": "Pop Quiz Daily · 팝 퀴즈 데일리",
+      "store": "App Store",
+      "store_url": "https://apps.apple.com/kr/app/id6759132499",
+      "screenshots": [
+        {
+          "path": "assets/apps/pop-quiz-daily-store-1.jpg",
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/5a/31/2e5a3110-6db2-1047-4918-68d13fb1e0a8/01.png/720x1560bb.jpg",
+          "sha256": "e50451e76f8e2e264d215f03e2b859e02cc468ab0412df7f88e5461c6a321f77",
+          "bytes": 115235,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/pop-quiz-daily-store-2.jpg",
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/df/b5/badfb5e3-e3f9-766a-0a7a-de03c361a730/02.png/720x1560bb.jpg",
+          "sha256": "a37defbcc8d441d706d669e7fca2f36a36fd4dbc3357b03db7ae122c720315e1",
+          "bytes": 118714,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "gemiboard",
+      "name": "GemiBoard · 제미보드",
+      "store": "Google Play",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.gemiboard",
+      "screenshots": [
+        {
+          "path": "assets/apps/gemiboard-store-1.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/qXQktA5ptV-B0Ci9p_QSYBzB082yYVUlqc3wN0Sm59V680oCJpd5ldLvA4sE98zs97xMrnQBBGy7tgKL7TOmNb0=w720",
+          "sha256": "6e9fceb39327ba75236bcd91cee83b66dc25ad5b4cb7a065fcb0c7383522492e",
+          "bytes": 41905,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/gemiboard-store-2.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/0VOTma61uMVFaxH2LiFC8OTXvNRpLx_HC_rfMeA18znSMcExa-hMXZIYKHg-EtarZZ_qvR_l9Rnl5LiIynmTSQ=w720",
+          "sha256": "a8dc2686ce1796729888e8170d32823be2806c267cb43396479dde3206e9bf71",
+          "bytes": 11523,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "astro-ai",
+      "name": "Astro AI",
+      "store": "Google Play",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.astroai",
+      "screenshots": [
+        {
+          "path": "assets/apps/astro-ai-store-1.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/_7qzrGgQcuYrbv8euuhBrtJ_XuQSKMXVbNC7WkO2Yjciqf2yR_J8-61KbFK3aNPQZaU-gNa7KHtpvrxpPjJ3=w720",
+          "sha256": "bc3a139ad042d4b88c882d29ce52d14300dba286ad7a096dc09814206204826f",
+          "bytes": 129935,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/astro-ai-store-2.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/A2QCj_xWe7f946EEAqLPpEtWMsiyd2ZHnZfn10zqk5dOcPj8mzTjkuJByjKOq_31_HZhRrRVGZpFEnxL2WQhlw=w720",
+          "sha256": "a669979e1e38e42c4c84b6d03eaa74fbb48cc14a22bab5f9c07fdf9f64867c3c",
+          "bytes": 130478,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "voda",
+      "name": "Voda",
+      "store": "Google Play",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.voda",
+      "screenshots": [
+        {
+          "path": "assets/apps/voda-store-1.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/my0--851Z2Nyi38f3QDA7t12vRd-pmBpmnQzl6SH_qvklF3MsIoK1KT5LVqGJyPxQ4l_ztUXRFrimMKzNGl87I8=w720",
+          "sha256": "9443618fbd403921afd5592b1f510153f6ad31827234d40cd15c8da35a1cec32",
+          "bytes": 172767,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/voda-store-2.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/fvTPuVPmcloEGPYkY8Ta9vlLX5aE2fRKW3K__7IOZnQn6iG4ahuVTNqw2zq90KfvMask8hOJ9YtfP-wnZSOb5A=w720",
+          "sha256": "3fe37efaf8276416d115a2e0459411bea38618a1e9cea0ae390b84e98951c33f",
+          "bytes": 136102,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "meow-bow",
+      "name": "멍냥이는 힐링이야 · Meow Bow",
+      "store": "Google Play",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.meowbow",
+      "screenshots": [
+        {
+          "path": "assets/apps/meow-bow-store-1.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/33Kq9ZVLMrowuKijiAL8lE2dTOqIDIQfJR1oxd4i8LMtSm2qmxXpW-UhOBWwddCL_eMDs3Xu3j6AnlbfnSMBNw=w720",
+          "sha256": "e7c8ee1c0fc4c3c5165daa3854928d68cd42c12d5020151f00d98ae9dd65c0cd",
+          "bytes": 128883,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/meow-bow-store-2.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/d2bUPyEx0gqaB_KTzdiEo1CKKXbDGbtBzApxTlLmCzPIhrh66fGdkHSV4yJxQcYzkxjGNxcWkq0Et4zbGlG7yA=w720",
+          "sha256": "b026abaabc5d312830bf4c823803a9e223e05311d5ed5b994fcbd01a90c0d7db",
+          "bytes": 106331,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "cocktail-wiki",
+      "name": "칵테일 위키 · Cocktail Wiki",
+      "store": "Google Play",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.cocktailwiki",
+      "screenshots": [
+        {
+          "path": "assets/apps/cocktail-wiki-store-1.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/e9v3PyuE0cyP48KN__CTj95BLZw9nMTfn_rUK617AvSTuwCxVLboLxQ7EEmER66caIZkyIoigOxsLUGdkCcSqo4=w720",
+          "sha256": "9dc4f4fe520e1e51d4a2baf62bb1f06db02de64f839527f7919353e15dab2e92",
+          "bytes": 118528,
+          "mime_type": "image/jpeg"
+        },
+        {
+          "path": "assets/apps/cocktail-wiki-store-2.jpg",
+          "source_url": "https://play-lh.googleusercontent.com/P8Cc8W23LYxQCM9As9loi9u_ThY1dMoF0qeiRuMsWkSTizH6H7e5fP_lhMs_c-sET0mE_wORSLc8L77-X9rc=w720",
+          "sha256": "124a8da11406810349fc8fd6d567eb7e7d061b7d16f8805e12a31b6d6bc3f903",
+          "bytes": 136848,
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "pickit",
+      "name": "PickIt · 픽잇",
+      "store": "Google Play",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.dev.hoony.pickit",
+      "screenshots": [
+        {
+          "path": "assets/apps/pickit-store-1.png",
+          "source_url": "https://play-lh.googleusercontent.com/014QtqaWQuH8Xfj2tG3dMXBxHEx9FXLTgumhV67cSXpiBLlMrc2P1B4N44OCXMwOZcHsGwRtS3JvYg3tG-dK=w720",
+          "sha256": "bb59f2ee9e9c042a09f9126389bbdbc3e43b05f49fd6333f6d95c653db0aea2b",
+          "bytes": 184992,
+          "mime_type": "image/png"
+        },
+        {
+          "path": "assets/apps/pickit-store-2.png",
+          "source_url": "https://play-lh.googleusercontent.com/_jI7Wws-zyzFJxNtQO3xvFWJT4NdMO2yZ6N30jcFE2-LmiavQqSO7AFEpMWUAktzcn1rCCdsqQ0e86uyaPxs=w720",
+          "sha256": "e47772547421d88a017614da34016b78dd343e7e66c4ce4b099d70efe82d3ea3",
+          "bytes": 235955,
+          "mime_type": "image/png"
+        }
+      ]
+    }
+  ]
+}
