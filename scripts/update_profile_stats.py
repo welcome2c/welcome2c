@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 OWNER = "welcome2c"
@@ -133,19 +134,21 @@ if __name__ == "__main__":
     gh = shutil.which("gh") or str(Path.home() / ".local/bin/gh")
     snapshot = collect(gh)
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    (OUTPUT / "summary.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
     if not args.snapshot_only:
-        from render_profile_stats import render_all
-        render_all(snapshot)
         readme = ROOT / "README.md"
-        alt = (f'최근 1년 GitHub 활동: 작성 커밋 {snapshot["commits"]:,}개, '
-               f'생성 PR {snapshot["pull_requests"]:,}개, 소유 저장소 {snapshot["owned_repositories"]:,}개. '
-               '최근 12주 커밋 그래프와 저장소 언어 비중.')
-        pattern = r'(<img src="assets/activity/dashboard-light.svg" width="[^"]+" alt=")[^"]*(">)'
-        content, replacements = re.subn(pattern, lambda m: m[1] + alt + m[2], readme.read_text(), count=1)
+        date = datetime.fromisoformat(snapshot["generated_at"]).astimezone(ZoneInfo("Asia/Seoul")).strftime("%Y.%m.%d")
+        activity = (f'<!-- activity-stats:start -->\n'
+                    f'**GitHub 활동** · 최근 1년 작성 커밋 **{snapshot["commits"]:,}** · '
+                    f'생성 PR **{snapshot["pull_requests"]:,}** · '
+                    f'소유 저장소 **{snapshot["owned_repositories"]:,}**' + '\\\n' +
+                    f'<sub>{date} 집계 · 공개·비공개 합산 · 회사 GitLab 제외</sub>\n'
+                    '<!-- activity-stats:end -->')
+        pattern = r'<!-- activity-stats:start -->.*?<!-- activity-stats:end -->'
+        content, replacements = re.subn(pattern, lambda m: activity, readme.read_text(), count=1, flags=re.S)
         if replacements != 1:
-            raise RuntimeError("Activity image markup changed; update its accessible description manually.")
+            raise RuntimeError("Activity markers missing; statistics were not updated.")
         readme.write_text(content)
+    (OUTPUT / "summary.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps({key: snapshot[key] for key in
           ["login", "generated_at", "commits", "pull_requests", "commit_days", "owned_repositories"]},
           ensure_ascii=False))
