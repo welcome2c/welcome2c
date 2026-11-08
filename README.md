@@ -17,7 +17,7 @@
 
 <!-- activity-stats:start -->
 **GitHub 활동** · 전체 기간 작성 커밋 **236** · 생성 PR **76** · 소유 저장소 **32**\
-<sub>2026.11.07 집계 · 공개·비공개 합산 · 회사 GitLab 제외</sub>
+<sub>2026.11.08 집계 · 공개·비공개 합산 · 회사 GitLab 제외</sub>
 <!-- activity-stats:end -->
 
 ## 실무 경력
