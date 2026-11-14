@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "login": "welcome2c",
-  "generated_at": "2026-11-13T03:25:59+00:00",
+  "generated_at": "2026-11-14T03:19:04+00:00",
   "period": {
     "type": "all_time",
     "from": null,
-    "to": "2026-11-13T03:25:59+00:00"
+    "to": "2026-11-14T03:19:04+00:00"
   },
   "scope": {
     "commits": "All-time unique commits authored by the account in owned non-fork default branches; public and private.",
@@ -1420,7 +1420,7 @@
   "languages": [
     {
       "name": "Kotlin",
-      "bytes": 5911398,
+      "bytes": 6255261,
       "color": "#A97BFF"
     },
     {
@@ -1430,7 +1430,7 @@
     },
     {
       "name": "Swift",
-      "bytes": 2184911,
+      "bytes": 2445771,
       "color": "#F05138"
     },
     {
@@ -1444,14 +1444,14 @@
       "color": "#f1e05a"
     },
     {
+      "name": "Python",
+      "bytes": 173003,
+      "color": "#3572A5"
+    },
+    {
       "name": "Java",
       "bytes": 163639,
       "color": "#b07219"
-    },
-    {
-      "name": "Python",
-      "bytes": 155187,
-      "color": "#3572A5"
     },
     {
       "name": "HTML",
